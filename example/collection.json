@@ -41,9 +41,14 @@
     }
   ],
   "summaries": {
-    "day_of_year": {
-      "minimum": 1,
-      "maximum": 366
+    "custom_property": {
+      "minimum": 10,
+      "maximum": 100,
+      "range": [10, 100],
+      "mean": 55,
+      "stddev": 20,
+      "sum": 1000,
+      "count": 20
     }
   }
 }
