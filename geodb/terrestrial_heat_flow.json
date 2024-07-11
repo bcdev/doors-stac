@@ -1,0 +1,100 @@
+{
+  "stac_version": "1.0.0",
+  "id": "terrestrial_heat_flow",
+  "title": "Terrestrial_Heat_Flow",
+  "description": "Terrestrial_Heat_Flow",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.571733,
+          43.424217,
+          30.552467,
+          43.728517
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-09-12T14:45:00",
+          "2023-09-16T13:15:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "terrestrial_heat_flow.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.424217",
+      "maximum": "43.728517"
+    },
+    "longitude": {
+      "minimum": "29.571733",
+      "maximum": "30.552467"
+    },
+    "station depth, m": {
+      "minimum": "689",
+      "maximum": "1153"
+    },
+    "sediment sample length, m": {
+      "minimum": "0.0",
+      "maximum": "3.9"
+    },
+    "depth in sediments (up), m": {
+      "minimum": "0.6",
+      "maximum": "1.5"
+    },
+    "temperature of sediments (up), \u00b0c": {
+      "minimum": "8.956",
+      "maximum": "9.097"
+    },
+    "depth in sediments (mid), m": {
+      "minimum": "0.22",
+      "maximum": "2.5"
+    },
+    "temperature of sediments (mid), \u00b0c": {
+      "minimum": "8.964",
+      "maximum": "9.132"
+    },
+    "depth in sediments (down), m": {
+      "minimum": "0.4",
+      "maximum": "3.5"
+    },
+    "temperature of sediments (down), \u00b0c": {
+      "minimum": "8.967",
+      "maximum": "9.161"
+    },
+    "temperature gradient (mid-up), mk/m": {
+      "minimum": "8",
+      "maximum": "45"
+    },
+    "temperature gradient (down-mid), mk/m": {
+      "minimum": "3",
+      "maximum": "152"
+    },
+    "temperature gradient (dowm-up), mk/m": {
+      "minimum": "5.5",
+      "maximum": "80.0"
+    }
+  }
+}

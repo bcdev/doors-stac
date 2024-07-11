@@ -1,0 +1,56 @@
+{
+  "stac_version": "1.0.0",
+  "id": "io-bas_national_monitoring_chl",
+  "title": "IO-BAS_National_Monitoring_CHL",
+  "description": "IO-BAS_National_Monitoring_CHL",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.516867,
+          42.06796,
+          29.33333333,
+          43.63333333
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-07-18T12:00:00",
+          "2021-06-30T10:10:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "io-bas_national_monitoring_chl.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "sampling depth [m]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "chl [mg/m^3]": {
+      "minimum": "0.1",
+      "maximum": "14.55"
+    }
+  }
+}

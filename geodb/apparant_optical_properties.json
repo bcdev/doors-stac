@@ -1,0 +1,140 @@
+{
+  "stac_version": "1.0.0",
+  "id": "apparant_optical_properties",
+  "title": "Apparant_Optical_Properties",
+  "description": "Apparant_Optical_Properties",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.6424,
+          43.703,
+          30.4272,
+          44.0731
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-03T16:58:00",
+          "2023-05-18T21:52:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "apparant_optical_properties.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.703",
+      "maximum": "44.0731"
+    },
+    "longitude": {
+      "minimum": "28.6424",
+      "maximum": "30.4272"
+    },
+    "kd(411.6)": {
+      "minimum": "0.124516",
+      "maximum": "0.696367"
+    },
+    "kd(443.6)": {
+      "minimum": "0.08511",
+      "maximum": "0.45810221"
+    },
+    "kd(489.2)": {
+      "minimum": "0.043893",
+      "maximum": "0.30012076"
+    },
+    "kd(511.0)": {
+      "minimum": "0.034252",
+      "maximum": "0.26427119"
+    },
+    "kd(554.0)": {
+      "minimum": "0.057801",
+      "maximum": "0.21990745"
+    },
+    "kd(664.8)": {
+      "minimum": "0.420486",
+      "maximum": "0.606262"
+    },
+    "kd(683.8)": {
+      "minimum": "0.456327",
+      "maximum": "0.642707"
+    },
+    "rrs(411.6)": {
+      "minimum": "0.00082326",
+      "maximum": "0.00506591"
+    },
+    "rrs(443.6)": {
+      "minimum": "0.001262435",
+      "maximum": "0.0068142"
+    },
+    "rrs(489.2)": {
+      "minimum": "0.00219415",
+      "maximum": "0.01077274"
+    },
+    "rrs(511.0)": {
+      "minimum": "0.0023563",
+      "maximum": "0.01130159"
+    },
+    "rrs(554.0)": {
+      "minimum": "0.00229393",
+      "maximum": "0.0102174"
+    },
+    "rrs(664.8)": {
+      "minimum": "0.00026268",
+      "maximum": "0.00139386"
+    },
+    "rrs(683.8)": {
+      "minimum": "0.00023511",
+      "maximum": "0.00139126"
+    },
+    "nlw(411.6)": {
+      "minimum": "0.150019",
+      "maximum": "0.92313976"
+    },
+    "nlw(443.6)": {
+      "minimum": "0.255231",
+      "maximum": "1.37765099"
+    },
+    "nlw(489.2)": {
+      "minimum": "0.4474275",
+      "maximum": "2.19676192"
+    },
+    "nlw(511.0)": {
+      "minimum": "0.479508",
+      "maximum": "2.29988041"
+    },
+    "nlw(554.0)": {
+      "minimum": "0.449965",
+      "maximum": "2.00419075"
+    },
+    "nlw(664.8)": {
+      "minimum": "0.04263",
+      "maximum": "0.22620681"
+    },
+    "nlw(683.8)": {
+      "minimum": "0.036611",
+      "maximum": "0.21359142"
+    }
+  }
+}

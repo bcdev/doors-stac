@@ -1,0 +1,100 @@
+{
+  "stac_version": "1.0.0",
+  "id": "beloslav_meteo",
+  "title": "Beloslav_Meteo",
+  "description": "Beloslav_Meteo",
+  "providers": [
+    {
+      "name": "GeoMarine",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.71196,
+          43.19436,
+          27.71196,
+          43.19436
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-08-05T13:08:52",
+          "2024-03-05T18:02:55"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "beloslav_meteo.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.19436",
+      "maximum": "43.19436"
+    },
+    "longitude": {
+      "minimum": "27.71196",
+      "maximum": "27.71196"
+    },
+    "temperature [\u00b0c]": {
+      "minimum": "-7.63",
+      "maximum": "39.33"
+    },
+    "pressure_sea [hpa]": {
+      "minimum": "940.0",
+      "maximum": "1099.6"
+    },
+    "pressure_raw [hpa]": {
+      "minimum": "940.0",
+      "maximum": "1099.6"
+    },
+    "humidity [%]": {
+      "minimum": "18",
+      "maximum": "100"
+    },
+    "wind_average [m/s]": {
+      "minimum": "0.0",
+      "maximum": "13.4"
+    },
+    "wind_max [m/s]": {
+      "minimum": "0.0",
+      "maximum": "23.3"
+    },
+    "wind_gust [m/s]": {
+      "minimum": "0.0",
+      "maximum": "22.4"
+    },
+    "wind_dir [\u00b0]": {
+      "minimum": "0.0",
+      "maximum": "360.0"
+    },
+    "rainfall [mm]": {
+      "minimum": "0.0",
+      "maximum": "1.4"
+    },
+    "solar [w/m2]": {
+      "minimum": "0.0",
+      "maximum": "1034.6"
+    },
+    "snowfall [mm]": {
+      "minimum": "0",
+      "maximum": "0"
+    }
+  }
+}

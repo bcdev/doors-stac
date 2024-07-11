@@ -1,0 +1,216 @@
+{
+  "stac_version": "1.0.0",
+  "id": "bio-optical-data-k09_2016",
+  "title": "bio-optical-data-K09_2016",
+  "description": "bio-optical-data-K09_2016",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.3473,
+          42.5819,
+          33.8243,
+          43.6022
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-06-05T05:23:41",
+          "2016-06-10T14:31:28"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "bio-optical-data-k09_2016.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "year": {
+      "minimum": "2016",
+      "maximum": "2016"
+    },
+    "month": {
+      "minimum": "6",
+      "maximum": "6"
+    },
+    "day": {
+      "minimum": "5",
+      "maximum": "10"
+    },
+    "time[hh] utc": {
+      "minimum": "4",
+      "maximum": "15"
+    },
+    "time[mm] utc": {
+      "minimum": "3",
+      "maximum": "58"
+    },
+    "time[ss] utc": {
+      "minimum": "1",
+      "maximum": "59"
+    },
+    "latitude": {
+      "minimum": "42.5819",
+      "maximum": "43.6022"
+    },
+    "longitude": {
+      "minimum": "28.3473",
+      "maximum": "33.8243"
+    },
+    "kd(412.0)": {
+      "minimum": "0.0821",
+      "maximum": "0.809683333"
+    },
+    "kd(443.0)": {
+      "minimum": "0.070326667",
+      "maximum": "0.633866667"
+    },
+    "kd(490.0)": {
+      "minimum": "0.020275",
+      "maximum": "0.428933333"
+    },
+    "kd(510.0)": {
+      "minimum": "0.008",
+      "maximum": "0.375806667"
+    },
+    "kd(555.0)": {
+      "minimum": "0.03033",
+      "maximum": "0.271793333"
+    },
+    "kd(665.0)": {
+      "minimum": "0.40864",
+      "maximum": "0.683933333"
+    },
+    "kd(684.0)": {
+      "minimum": "0.42687",
+      "maximum": "0.73039"
+    },
+    "es(412.0)": {
+      "minimum": "21.99538889",
+      "maximum": "139.897"
+    },
+    "es(443.0)": {
+      "minimum": "23.66924444",
+      "maximum": "159.68"
+    },
+    "es(490.0)": {
+      "minimum": "23.49132444",
+      "maximum": "171.025"
+    },
+    "es(510.0)": {
+      "minimum": "22.80496667",
+      "maximum": "173.628"
+    },
+    "es(555.0)": {
+      "minimum": "20.29524444",
+      "maximum": "166.83"
+    },
+    "es(665.0)": {
+      "minimum": "15.90055556",
+      "maximum": "144.29801"
+    },
+    "es(684.0)": {
+      "minimum": "14.14486667",
+      "maximum": "132.39501"
+    },
+    "rrs(412.0)": {
+      "minimum": "0.002568733",
+      "maximum": "0.006827233"
+    },
+    "rrs(443.0)": {
+      "minimum": "0.003257467",
+      "maximum": "0.008841567"
+    },
+    "rrs(489.0)": {
+      "minimum": "0.0042963",
+      "maximum": "0.011023433"
+    },
+    "rrs(510.0)": {
+      "minimum": "0.0034447",
+      "maximum": "0.010181867"
+    },
+    "rrs(555.0)": {
+      "minimum": "0.0021136",
+      "maximum": "0.010247267"
+    },
+    "rrs(665.0)": {
+      "minimum": "0.0002364",
+      "maximum": "0.004339933"
+    },
+    "rrs(684.0)": {
+      "minimum": "0.000272",
+      "maximum": "0.001989567"
+    },
+    "nlw(412.0)": {
+      "minimum": "0.435833333",
+      "maximum": "1.15838"
+    },
+    "nlw(443.0)": {
+      "minimum": "0.636526667",
+      "maximum": "1.7277"
+    },
+    "nlw(489.0)": {
+      "minimum": "0.8419",
+      "maximum": "2.160133333"
+    },
+    "nlw(510.0)": {
+      "minimum": "0.65844",
+      "maximum": "1.946203333"
+    },
+    "nlw(555.0)": {
+      "minimum": "0.39748",
+      "maximum": "1.927086667"
+    },
+    "nlw(665.0)": {
+      "minimum": "0.03627",
+      "maximum": "0.8748"
+    },
+    "nlw(684.0)": {
+      "minimum": "0.03961",
+      "maximum": "0.904233333"
+    },
+    "chl-a [mg/m3]": {
+      "minimum": "0.11",
+      "maximum": "2.51"
+    },
+    "temperature [\u00b0c]": {
+      "minimum": "18.9389",
+      "maximum": "22.9977"
+    },
+    "salinity [psu]": {
+      "minimum": "14.3694",
+      "maximum": "18.4417"
+    },
+    "wind speed [m/s]": {
+      "minimum": "0.3",
+      "maximum": "7.7"
+    },
+    "wind direction [deg]": {
+      "minimum": "10",
+      "maximum": "350"
+    },
+    "secchi disk [m]": {
+      "minimum": "3",
+      "maximum": "19"
+    }
+  }
+}

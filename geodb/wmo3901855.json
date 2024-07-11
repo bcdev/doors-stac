@@ -1,0 +1,116 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo3901855",
+  "title": "WMO3901855",
+  "description": "WMO3901855",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.429963333333333,
+          41.343855,
+          39.97791166666666,
+          44.790725
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-10-22T23:47:00",
+          "2022-06-05T12:14:30"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo3901855.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "latitude": {
+      "minimum": "41.343855",
+      "maximum": "44.790725"
+    },
+    "longitude": {
+      "minimum": "28.4299633333333",
+      "maximum": "39.9779116666667"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "411"
+    },
+    "pres (decibar)": {
+      "minimum": "3.0",
+      "maximum": "1531.4"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal (psu)": {
+      "minimum": "17.157",
+      "maximum": "22.515"
+    },
+    "psal_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "4.678",
+      "maximum": "28.357"
+    },
+    "temp_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted (decibar)": {
+      "minimum": "3.0",
+      "maximum": "1531.4"
+    },
+    "pres_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "temp_adjusted (\u00b0c)": {
+      "minimum": "4.678",
+      "maximum": "28.357"
+    },
+    "temp_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal_adjusted (psu)": {
+      "minimum": "17.1139",
+      "maximum": "22.4719"
+    },
+    "psal_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    }
+  }
+}

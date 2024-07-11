@@ -1,0 +1,100 @@
+{
+  "stac_version": "1.0.0",
+  "id": "moorings_burgas_bay_wavebuoy",
+  "title": "moorings_Burgas_Bay_wavebuoy",
+  "description": "moorings_Burgas_Bay_wavebuoy",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.50038,
+          42.49261,
+          27.50154,
+          42.49352
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-11-23T00:30:00",
+          "2024-07-11T13:30:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "moorings_burgas_bay_wavebuoy.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "sea surface temperature [\u00b0c]": {
+      "minimum": "5.76",
+      "maximum": "28.71"
+    },
+    "barometric pressure [hpa]": {
+      "minimum": "975.17",
+      "maximum": "1038.99"
+    },
+    "wind speed [m/s]": {
+      "minimum": "0.0",
+      "maximum": "19.96"
+    },
+    "wind direction [deg]": {
+      "minimum": "0.0",
+      "maximum": "359.0"
+    },
+    "significant wave height [m]": {
+      "minimum": "0.03",
+      "maximum": "2.167"
+    },
+    "peak period [sec]": {
+      "minimum": "1.264",
+      "maximum": "25.602"
+    },
+    "mean period [sec]": {
+      "minimum": "1.696",
+      "maximum": "18.083"
+    },
+    "peak direction [deg]": {
+      "minimum": "0.061",
+      "maximum": "359.988"
+    },
+    "peak directional spread [deg]": {
+      "minimum": "17.31",
+      "maximum": "80.984"
+    },
+    "mean direction [deg]": {
+      "minimum": "0.497",
+      "maximum": "359.826"
+    },
+    "mean directional spread [deg]": {
+      "minimum": "25.643",
+      "maximum": "80.947"
+    },
+    "latitude": {
+      "minimum": "42.49261",
+      "maximum": "42.49352"
+    },
+    "longitude": {
+      "minimum": "27.50038",
+      "maximum": "27.50154"
+    }
+  }
+}

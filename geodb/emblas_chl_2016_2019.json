@@ -1,0 +1,76 @@
+{
+  "stac_version": "1.0.0",
+  "id": "emblas_chl_2016_2019",
+  "title": "EMBLAS_CHL_2016_2019",
+  "description": "EMBLAS_CHL_2016_2019",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.7739,
+          41.7836,
+          41.2196,
+          46.6272
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-05-22T12:00:00",
+          "2019-10-16T12:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "emblas_chl_2016_2019.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "longitude": {
+      "minimum": "29.7739",
+      "maximum": "41.2196"
+    },
+    "latitude": {
+      "minimum": "41.7836",
+      "maximum": "46.6272"
+    },
+    "day": {
+      "minimum": "1",
+      "maximum": "31"
+    },
+    "month": {
+      "minimum": "5",
+      "maximum": "10"
+    },
+    "year": {
+      "minimum": "2016",
+      "maximum": "2019"
+    },
+    "sampling depth [m]": {
+      "minimum": "0.0",
+      "maximum": "70.0"
+    },
+    "chl-a [mg/m3]": {
+      "minimum": "0.1484",
+      "maximum": "29.8297"
+    }
+  }
+}

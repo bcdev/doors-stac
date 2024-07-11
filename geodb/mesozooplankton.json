@@ -1,0 +1,72 @@
+{
+  "stac_version": "1.0.0",
+  "id": "mesozooplankton",
+  "title": "Mesozooplankton",
+  "description": "Mesozooplankton",
+  "providers": [
+    {
+      "name": "National Institute of Marine Geology and Geoecology of Romania",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.0352,
+          44.08369,
+          29.29346,
+          44.54672
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-09-02T00:00:00",
+          "2023-09-07T00:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "mesozooplankton.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "aphiaid": {
+      "minimum": "101",
+      "maximum": "745865"
+    },
+    "depth (m)": {
+      "minimum": "36.5",
+      "maximum": "46.5"
+    },
+    "depth_min (m)": {
+      "minimum": "0",
+      "maximum": "35"
+    },
+    "depth_max (m)": {
+      "minimum": "10",
+      "maximum": "42"
+    },
+    "observedindividualcount (ind/m3)": {
+      "minimum": "0.39",
+      "maximum": "27415.88"
+    },
+    "observedweight (mg/m3)": {
+      "minimum": "0.0",
+      "maximum": "1123.65"
+    }
+  }
+}

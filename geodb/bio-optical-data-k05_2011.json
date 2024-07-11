@@ -1,0 +1,208 @@
+{
+  "stac_version": "1.0.0",
+  "id": "bio-optical-data-k05_2011",
+  "title": "bio-optical-data-K05_2011",
+  "description": "bio-optical-data-K05_2011",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.9826,
+          42.1039,
+          29.4838,
+          43.6386
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-07-09T05:25:21",
+          "2011-07-12T08:24:39"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "bio-optical-data-k05_2011.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "year": {
+      "minimum": "2011",
+      "maximum": "2011"
+    },
+    "month": {
+      "minimum": "7",
+      "maximum": "7"
+    },
+    "day": {
+      "minimum": "9",
+      "maximum": "12"
+    },
+    "time[hh] utc": {
+      "minimum": "5",
+      "maximum": "16"
+    },
+    "time[mm] utc": {
+      "minimum": "0",
+      "maximum": "57"
+    },
+    "time[ss] utc": {
+      "minimum": "0",
+      "maximum": "57"
+    },
+    "latitude": {
+      "minimum": "42.1039",
+      "maximum": "43.6386"
+    },
+    "longitude": {
+      "minimum": "27.9826",
+      "maximum": "29.4838"
+    },
+    "kd(412.0)": {
+      "minimum": "0.128253333",
+      "maximum": "0.254666667"
+    },
+    "kd(443.0)": {
+      "minimum": "0.092856667",
+      "maximum": "0.194423333"
+    },
+    "kd(490.0)": {
+      "minimum": "0.04678",
+      "maximum": "0.145886667"
+    },
+    "kd(510.0)": {
+      "minimum": "0.03305",
+      "maximum": "0.148086667"
+    },
+    "kd(555.0)": {
+      "minimum": "0.02129",
+      "maximum": "0.154943333"
+    },
+    "kd(665.0)": {
+      "minimum": "0.411503333",
+      "maximum": "0.62876"
+    },
+    "kd(684.0)": {
+      "minimum": "0.441183333",
+      "maximum": "0.682763333"
+    },
+    "es(412.0)": {
+      "minimum": "0.187733333",
+      "maximum": "1.247"
+    },
+    "es(443.0)": {
+      "minimum": "21.83486667",
+      "maximum": "141.468"
+    },
+    "es(490.0)": {
+      "minimum": "24.29223333",
+      "maximum": "150.095"
+    },
+    "es(510.0)": {
+      "minimum": "24.84423333",
+      "maximum": "151.315"
+    },
+    "es(555.0)": {
+      "minimum": "24.0684",
+      "maximum": "146.461"
+    },
+    "es(665.0)": {
+      "minimum": "25.34896667",
+      "maximum": "230.7763333"
+    },
+    "es(684.0)": {
+      "minimum": "20.1679",
+      "maximum": "114.305"
+    },
+    "rrs(412.0)": {
+      "minimum": "0.002078733",
+      "maximum": "0.0035194"
+    },
+    "rrs(443.0)": {
+      "minimum": "0.0026451",
+      "maximum": "0.0046113"
+    },
+    "rrs(489.0)": {
+      "minimum": "0.003371967",
+      "maximum": "0.0057538"
+    },
+    "rrs(510.0)": {
+      "minimum": "0.003066567",
+      "maximum": "0.0053207"
+    },
+    "rrs(555.0)": {
+      "minimum": "0.0023501",
+      "maximum": "0.0042938"
+    },
+    "rrs(665.0)": {
+      "minimum": "0.000269367",
+      "maximum": "0.0006579"
+    },
+    "rrs(684.0)": {
+      "minimum": "0.0002917",
+      "maximum": "0.0475"
+    },
+    "nlw(412.0)": {
+      "minimum": "0.352693333",
+      "maximum": "0.59713"
+    },
+    "nlw(443.0)": {
+      "minimum": "0.516876667",
+      "maximum": "0.90108"
+    },
+    "nlw(489.0)": {
+      "minimum": "0.660763333",
+      "maximum": "1.1275"
+    },
+    "nlw(510.0)": {
+      "minimum": "0.58616",
+      "maximum": "1.01702"
+    },
+    "nlw(555.0)": {
+      "minimum": "0.44196",
+      "maximum": "0.80749"
+    },
+    "nlw(665.0)": {
+      "minimum": "0.041326667",
+      "maximum": "0.10095"
+    },
+    "nlw(684.0)": {
+      "minimum": "0.04247",
+      "maximum": "0.1009"
+    },
+    "chl-a [mg/m3]": {
+      "minimum": "0.127",
+      "maximum": "0.38"
+    },
+    "temperature [\u00b0c]": {
+      "minimum": "22.2218",
+      "maximum": "25.6267"
+    },
+    "salinity [psu]": {
+      "minimum": "16.5541",
+      "maximum": "17.8443"
+    },
+    "wind speed [m/s]": {
+      "minimum": "0.5",
+      "maximum": "4.7"
+    }
+  }
+}

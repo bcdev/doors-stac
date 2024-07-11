@@ -1,0 +1,128 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo6901899",
+  "title": "WMO6901899",
+  "description": "WMO6901899",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.42788,
+          41.48615,
+          33.11721,
+          42.03287
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2014-05-02T11:54:00",
+          "2014-11-10T18:27:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo6901899.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "platform_number": {
+      "minimum": "6901899",
+      "maximum": "6901899"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "39"
+    },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres (decibar)": {
+      "minimum": "0.0",
+      "maximum": "987.0"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted (decibar)": {
+      "minimum": "0.0",
+      "maximum": "987.0"
+    },
+    "pres_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
+    },
+    "psal (psu)": {
+      "minimum": "16.232",
+      "maximum": "22.288"
+    },
+    "psal_qc": {
+      "minimum": "1",
+      "maximum": "3"
+    },
+    "psal_adjusted (psu)": {
+      "minimum": "16.232",
+      "maximum": "22.288"
+    },
+    "psal_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "8"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.005",
+      "maximum": "0.005"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "8.081",
+      "maximum": "27.829"
+    },
+    "temp_qc": {
+      "minimum": "1",
+      "maximum": "3"
+    },
+    "temp_adjusted (\u00b0c)": {
+      "minimum": "8.081",
+      "maximum": "27.185"
+    },
+    "temp_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "8"
+    },
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
+    },
+    "doxy (micromole/kg)": {
+      "minimum": "-1.18284",
+      "maximum": "315.2553"
+    }
+  }
+}

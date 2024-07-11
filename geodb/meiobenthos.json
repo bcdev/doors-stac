@@ -1,0 +1,64 @@
+{
+  "stac_version": "1.0.0",
+  "id": "meiobenthos",
+  "title": "Meiobenthos",
+  "description": "Meiobenthos",
+  "providers": [
+    {
+      "name": "National Institute of Marine Geology and Geoecology of Romania",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.0352,
+          44.08369,
+          29.29346,
+          44.54672
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-09-02T00:00:00",
+          "2023-09-08T00:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "meiobenthos.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "aphiaid": {
+      "minimum": "2297",
+      "maximum": "1597468"
+    },
+    "depth (m)": {
+      "minimum": "36.5",
+      "maximum": "46.5"
+    },
+    "observed individual count (ind/m2)": {
+      "minimum": "127.38",
+      "maximum": "388509.0"
+    },
+    "observedweight (mg/m2)": {
+      "minimum": "0.04",
+      "maximum": "1256.46"
+    }
+  }
+}

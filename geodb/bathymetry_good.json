@@ -1,0 +1,64 @@
+{
+  "stac_version": "1.0.0",
+  "id": "bathymetry_good",
+  "title": "Bathymetry_good",
+  "description": "Bathymetry_good",
+  "providers": [
+    {
+      "name": "National Institute of Marine Geology and Geoecology of Romania",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          626786.605,
+          4844671.121,
+          720811.518,
+          5004500.071
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-05-06T11:28:09",
+          "2023-09-24T09:59:40"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "bathymetry_good.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "easting": {
+      "minimum": "626786.605",
+      "maximum": "720811.518"
+    },
+    "northing": {
+      "minimum": "4844671.121",
+      "maximum": "5004500.071"
+    },
+    "raw depth (hi)": {
+      "minimum": "0.857",
+      "maximum": "24.056"
+    },
+    "corrected depth": {
+      "minimum": "0.642",
+      "maximum": "23.626"
+    }
+  }
+}

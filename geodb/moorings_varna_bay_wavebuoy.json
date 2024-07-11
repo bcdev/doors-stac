@@ -1,0 +1,100 @@
+{
+  "stac_version": "1.0.0",
+  "id": "moorings_varna_bay_wavebuoy",
+  "title": "moorings_Varna_Bay_wavebuoy",
+  "description": "moorings_Varna_Bay_wavebuoy",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.99513,
+          43.18142,
+          27.99683,
+          43.18298
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-03-21T00:04:51",
+          "2024-07-11T12:17:30"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "moorings_varna_bay_wavebuoy.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "sea surface temperature [\u00b0c]": {
+      "minimum": "6.32",
+      "maximum": "27.6"
+    },
+    "barometric pressure [hpa]": {
+      "minimum": "977.3",
+      "maximum": "1039.2"
+    },
+    "wind speed [m/s]": {
+      "minimum": "0.0",
+      "maximum": "11.2"
+    },
+    "wind direction [deg]": {
+      "minimum": "0.0",
+      "maximum": "354.0"
+    },
+    "significant wave height [m]": {
+      "minimum": "0.07",
+      "maximum": "2.89"
+    },
+    "peak period [sec]": {
+      "minimum": "1.42",
+      "maximum": "25.6"
+    },
+    "mean period [sec]": {
+      "minimum": "1.86",
+      "maximum": "17.44"
+    },
+    "peak direction [deg]": {
+      "minimum": "0.201",
+      "maximum": "360.0"
+    },
+    "peak directional spread [deg]": {
+      "minimum": "15.458",
+      "maximum": "80.52"
+    },
+    "mean direction [deg]": {
+      "minimum": "0.623",
+      "maximum": "360.0"
+    },
+    "mean directional spread [deg]": {
+      "minimum": "25.46",
+      "maximum": "80.903"
+    },
+    "latitude": {
+      "minimum": "43.18142",
+      "maximum": "43.18298"
+    },
+    "longitude": {
+      "minimum": "27.99513",
+      "maximum": "27.99683"
+    }
+  }
+}

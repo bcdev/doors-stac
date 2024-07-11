@@ -1,0 +1,68 @@
+{
+  "stac_version": "1.0.0",
+  "id": "emblas_nutrients_2016_2019",
+  "title": "EMBLAS_Nutrients_2016_2019",
+  "description": "EMBLAS_Nutrients_2016_2019",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.7739,
+          41.558,
+          41.7491,
+          46.6272
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-04-10T12:00:00",
+          "2019-10-16T12:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "emblas_nutrients_2016_2019.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "longitude": {
+      "minimum": "29.7739",
+      "maximum": "41.7491"
+    },
+    "latitude": {
+      "minimum": "41.558",
+      "maximum": "46.6272"
+    },
+    "station depth [m]": {
+      "minimum": "1.0",
+      "maximum": "2173.0"
+    },
+    "sampling depth [m]": {
+      "minimum": "0.0",
+      "maximum": "996.0"
+    },
+    "value": {
+      "minimum": "0.0",
+      "maximum": "12731.104"
+    }
+  }
+}

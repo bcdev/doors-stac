@@ -1,0 +1,72 @@
+{
+  "stac_version": "1.0.0",
+  "id": "macrozooplankton",
+  "title": "Macrozooplankton",
+  "description": "Macrozooplankton",
+  "providers": [
+    {
+      "name": "National Institute of Marine Geology and Geoecology of Romania",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.0352,
+          44.08369,
+          29.29346,
+          44.54672
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-09-01T00:00:00",
+          "2023-09-07T00:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "macrozooplankton.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "aphiaid": {
+      "minimum": "106386",
+      "maximum": "1719780"
+    },
+    "depth (m)": {
+      "minimum": "35.6",
+      "maximum": "46.5"
+    },
+    "depth_min (m)": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "depth_max (m)": {
+      "minimum": "30",
+      "maximum": "45"
+    },
+    "observedindividual count (ind/m3)": {
+      "minimum": "0.0",
+      "maximum": "4.42"
+    },
+    "observedweight (mg/m3)": {
+      "minimum": "0.0",
+      "maximum": "5742.23"
+    }
+  }
+}

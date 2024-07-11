@@ -1,0 +1,60 @@
+{
+  "stac_version": "1.0.0",
+  "id": "floating_marine_litter",
+  "title": "Floating_Marine_Litter",
+  "description": "Floating_Marine_Litter",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.6227,
+          41.5955,
+          41.67792,
+          43.60877
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-02T12:00:00",
+          "2027-06-05T12:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "floating_marine_litter.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "41.5955",
+      "maximum": "43.60877"
+    },
+    "longitude": {
+      "minimum": "29.6227",
+      "maximum": "41.67792"
+    },
+    "concentration of macro plastic (items/km^2)": {
+      "minimum": "161.6",
+      "maximum": "2931.6"
+    }
+  }
+}

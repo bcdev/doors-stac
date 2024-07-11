@@ -1,0 +1,132 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo6903228",
+  "title": "WMO6903228",
+  "description": "WMO6903228",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.5154,
+          41.43812,
+          31.44294,
+          43.41052
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2017-10-20T20:10:28",
+          "2018-02-12T03:04:08"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo6903228.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "platform_number": {
+      "minimum": "6903228",
+      "maximum": "6903228"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "24"
+    },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "latitude": {
+      "minimum": "41.43812",
+      "maximum": "43.41052"
+    },
+    "longitude": {
+      "minimum": "28.5154",
+      "maximum": "31.44294"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "8"
+    },
+    "pres (decibar)": {
+      "minimum": "0.7",
+      "maximum": "1500.9"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted (decibar)": {
+      "minimum": "0.7",
+      "maximum": "1500.9"
+    },
+    "pres_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
+    },
+    "psal (psu)": {
+      "minimum": "17.77",
+      "maximum": "22.327"
+    },
+    "psal_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal_adjusted (psu)": {
+      "minimum": "17.77",
+      "maximum": "22.327"
+    },
+    "psal_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.01",
+      "maximum": "0.01"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "7.501",
+      "maximum": "17.07"
+    },
+    "temp_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "temp_adjusted (\u00b0c)": {
+      "minimum": "7.501",
+      "maximum": "17.07"
+    },
+    "temp_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo6901895",
+  "title": "WMO6901895",
+  "description": "WMO6901895",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.798,
+          41.674,
+          40.504,
+          44.504
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-08-02T15:08:00",
+          "2017-01-26T18:22:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo6901895.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "platform_number": {
+      "minimum": "6901895",
+      "maximum": "6901895"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "255"
+    },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres (decibar)": {
+      "minimum": "0",
+      "maximum": "766"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted (decibar)": {
+      "minimum": "0",
+      "maximum": "766"
+    },
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
+    },
+    "psal (psu)": {
+      "minimum": "17.142",
+      "maximum": "22.219"
+    },
+    "psal_adjusted (psu)": {
+      "minimum": "17.459",
+      "maximum": "22.219"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.005",
+      "maximum": "0.005"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "6.582",
+      "maximum": "27.176"
+    },
+    "temp_adjusted (\u00b0c)": {
+      "minimum": "6.582",
+      "maximum": "27.176"
+    },
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
+    },
+    "doxy (micromole/kg)": {
+      "minimum": "-0.86843",
+      "maximum": "335.24362"
+    },
+    "doxy_adjusted (micromole/kg)": {
+      "minimum": "-0.9135",
+      "maximum": "352.64276"
+    },
+    "doxy_adjusted_error (micromole/kg)": {
+      "minimum": "10.8357",
+      "maximum": "15.94108"
+    }
+  }
+}

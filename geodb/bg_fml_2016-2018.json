@@ -1,0 +1,60 @@
+{
+  "stac_version": "1.0.0",
+  "id": "bg_fml_2016-2018",
+  "title": "BG_FML_2016-2018",
+  "description": "BG_FML_2016-2018",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.493983,
+          42.046867,
+          29.268,
+          43.715533
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-07-02T12:00:00",
+          "2018-10-31T12:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "bg_fml_2016-2018.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "42.046867",
+      "maximum": "43.715533"
+    },
+    "longitude": {
+      "minimum": "27.493983",
+      "maximum": "29.268"
+    },
+    "floating marine litter density (c) item/km2": {
+      "minimum": "0.0",
+      "maximum": "8441.0"
+    }
+  }
+}

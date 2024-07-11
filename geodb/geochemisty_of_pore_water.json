@@ -1,0 +1,228 @@
+{
+  "stac_version": "1.0.0",
+  "id": "geochemisty_of_pore_water",
+  "title": "Geochemisty_of_pore_water",
+  "description": "Geochemisty_of_pore_water",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.482567,
+          43.939502,
+          31.250632,
+          44.224975
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-09-10T10:53:00",
+          "2033-09-26T16:55:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "geochemisty_of_pore_water.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.939502",
+      "maximum": "44.224975"
+    },
+    "longitude": {
+      "minimum": "29.482567",
+      "maximum": "31.250632"
+    },
+    "water depth (m)": {
+      "minimum": "59.0",
+      "maximum": "759.7"
+    },
+    "sediments depth (mbsf)": {
+      "minimum": "0.07",
+      "maximum": "30.14"
+    },
+    "alkalinity (\u03bcm)": {
+      "minimum": "2213.49806",
+      "maximum": "23487.441291"
+    },
+    "h2s (\u03bcm)": {
+      "minimum": "0.0",
+      "maximum": "10134.978275"
+    },
+    "fe2+ (\u03bcm)": {
+      "minimum": "0.0",
+      "maximum": "1182.068655"
+    },
+    "acetate (\u03bcm)": {
+      "minimum": "-0.337461",
+      "maximum": "69.891139"
+    },
+    "formate (\u03bcm)": {
+      "minimum": "0.0",
+      "maximum": "45.441456"
+    },
+    "chloride (\u03bcm)": {
+      "minimum": "22482.003189",
+      "maximum": "405063.724516"
+    },
+    "sulphate (\u03bcm)": {
+      "minimum": "0.0",
+      "maximum": "15677.152351"
+    },
+    "bromide (\u03bcm)": {
+      "minimum": "78.739469",
+      "maximum": "597.120875"
+    },
+    "phosphate (\u03bcm)": {
+      "minimum": "-3.40965",
+      "maximum": "46.032031"
+    },
+    "sodium (\u03bcm)": {
+      "minimum": "3372.403536",
+      "maximum": "321923.310567"
+    },
+    "ammonium (\u03bcm)": {
+      "minimum": "52.798416",
+      "maximum": "1690.816016"
+    },
+    "potassium (\u03bcm)": {
+      "minimum": "32.927173",
+      "maximum": "6817.149463"
+    },
+    "magnesium (\u03bcm)": {
+      "minimum": "1067.530926",
+      "maximum": "35451.673073"
+    },
+    "calcium (\u03bcm)": {
+      "minimum": "1071.496769",
+      "maximum": "22324.588863"
+    },
+    "thiosulfate (\u03bcm)": {
+      "minimum": "68.669375",
+      "maximum": "511.555075"
+    },
+    "li7(lr) (\u03bcm)": {
+      "minimum": "0.267082",
+      "maximum": "18.02099"
+    },
+    "sr86(lr) (\u03bcm)": {
+      "minimum": "23.102357",
+      "maximum": "152.733266"
+    },
+    "mo98(lr) (\u03bcm)": {
+      "minimum": "0.000372",
+      "maximum": "54.310196"
+    },
+    "ba138(lr) (\u03bcm)": {
+      "minimum": "0.304782",
+      "maximum": "32.346966"
+    },
+    "pb206(lr) (\u03bcm)": {
+      "minimum": "-0.001789",
+      "maximum": "0.086524"
+    },
+    "u238(lr) (\u03bcm)": {
+      "minimum": "-6.9e-05",
+      "maximum": "0.031535"
+    },
+    "mg24(mr) (\u03bcm)": {
+      "minimum": "2795.819925",
+      "maximum": "50553.33271"
+    },
+    "al27(mr) (\u03bcm)": {
+      "minimum": "0.040736",
+      "maximum": "811.41453"
+    },
+    "si28(mr) (\u03bcm)": {
+      "minimum": "54.788033",
+      "maximum": "898.877194"
+    },
+    "s32(mr) (\u03bcm)": {
+      "minimum": "7.143903",
+      "maximum": "16529.966481"
+    },
+    "ti47(mr) (\u03bcm)": {
+      "minimum": "-0.003526",
+      "maximum": "0.057393"
+    },
+    "v51(mr) (\u03bcm)": {
+      "minimum": "-0.002932",
+      "maximum": "0.42135"
+    },
+    "cr52(mr) (\u03bcm)": {
+      "minimum": "0.162808",
+      "maximum": "7.256158"
+    },
+    "mn55(mr) (\u03bcm)": {
+      "minimum": "0.02784",
+      "maximum": "142.161819"
+    },
+    "fe56(mr) (\u03bcm)": {
+      "minimum": "0.142408",
+      "maximum": "1593.097102"
+    },
+    "fe57(mr) (\u03bcm)": {
+      "minimum": "0.112873",
+      "maximum": "1471.275499"
+    },
+    "co59(mr) (\u03bcm)": {
+      "minimum": "-0.012767",
+      "maximum": "0.286506"
+    },
+    "ni60(mr) (\u03bcm)": {
+      "minimum": "-0.011533",
+      "maximum": "0.944146"
+    },
+    "ni62(mr) (\u03bcm)": {
+      "minimum": "-0.009025",
+      "maximum": "0.834885"
+    },
+    "cu63(mr) (\u03bcm)": {
+      "minimum": "0.00921",
+      "maximum": "2.096429"
+    },
+    "zn66(mr) (\u03bcm)": {
+      "minimum": "-0.081398",
+      "maximum": "24.472919"
+    },
+    "sediment porosity": {
+      "minimum": "0.423408",
+      "maximum": "0.956761"
+    },
+    "[ch4] (\u03bcm)": {
+      "minimum": "0.0",
+      "maximum": "97480.389007"
+    },
+    "\u03b413c-ch4 (\u2030 - vpdb)": {
+      "minimum": "-80.190227",
+      "maximum": "-64.61278"
+    },
+    "\u03b4d-ch4 (\u2030 - vsmow)": {
+      "minimum": "-257.0",
+      "maximum": "-174.0"
+    },
+    "stdev-d13c (\u2030 - vpdb)": {
+      "minimum": "0.26",
+      "maximum": "6.269"
+    }
+  }
+}

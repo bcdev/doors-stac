@@ -1,0 +1,76 @@
+{
+  "stac_version": "1.0.0",
+  "id": "anemone_chl_2019_2020",
+  "title": "ANEMONE_CHL_2019_2020",
+  "description": "ANEMONE_CHL_2019_2020",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0001,
+          41.1295,
+          36.6989,
+          46.6114
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-05-11T12:00:00",
+          "2020-01-18T12:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "anemone_chl_2019_2020.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "longitude": {
+      "minimum": "28.0001",
+      "maximum": "36.6989"
+    },
+    "latitude": {
+      "minimum": "41.1295",
+      "maximum": "46.6114"
+    },
+    "day": {
+      "minimum": "1",
+      "maximum": "31"
+    },
+    "month": {
+      "minimum": "1",
+      "maximum": "10"
+    },
+    "year": {
+      "minimum": "2019",
+      "maximum": "2020"
+    },
+    "sampling depth [m]": {
+      "minimum": "0.0",
+      "maximum": "100.0"
+    },
+    "chl-a [mg/m3]": {
+      "minimum": "0.0",
+      "maximum": "29.8297"
+    }
+  }
+}

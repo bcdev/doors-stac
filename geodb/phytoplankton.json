@@ -1,0 +1,104 @@
+{
+  "stac_version": "1.0.0",
+  "id": "phytoplankton",
+  "title": "Phytoplankton",
+  "description": "Phytoplankton",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.6489,
+          43.6601,
+          32.8584,
+          44.9174
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-01T15:12:00",
+          "2023-05-19T07:57:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "phytoplankton.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.6601",
+      "maximum": "44.9174"
+    },
+    "longitude": {
+      "minimum": "28.6489",
+      "maximum": "32.8584"
+    },
+    "station depth [m]": {
+      "minimum": "27.0",
+      "maximum": "1097.0"
+    },
+    "sampling depth [m]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "acanthoica sp. n[cells/l]": {
+      "minimum": "2681.5",
+      "maximum": "45585.5"
+    },
+    "calyptrosphaera oblonga n[cells/l]": {
+      "minimum": "2551.0",
+      "maximum": "5720.0"
+    },
+    "coccolithus sp.3 (18) n[cells/l]": {
+      "minimum": "2716.5",
+      "maximum": "84300.0"
+    },
+    "coronosphaera mediterranea n[cells/l]": {
+      "minimum": "2581.5",
+      "maximum": "71472.0"
+    },
+    "emiliania huxleyi n[cells/l]": {
+      "minimum": "90123.0",
+      "maximum": "3662940.0"
+    },
+    "acanthoica sp. b[mg/m^3]": {
+      "minimum": "1.44541788333333",
+      "maximum": "24.5721040166667"
+    },
+    "calyptrosphaera oblonga  b[mg/m^3]": {
+      "minimum": "2.56358833487925",
+      "maximum": "5.74822629381"
+    },
+    "coccolithus sp.3 (18)  b[mg/m^3]": {
+      "minimum": "8.6255135343564",
+      "maximum": "267.671927460425"
+    },
+    "coronosphaera mediterranea b[mg/m^3]": {
+      "minimum": "12.6489681484794",
+      "maximum": "350.202227971381"
+    },
+    "emiliania huxleyi  b[mg/m^3]": {
+      "minimum": "10.9184754071929",
+      "maximum": "443.768186900382"
+    }
+  }
+}

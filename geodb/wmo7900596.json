@@ -1,0 +1,92 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo7900596",
+  "title": "WMO7900596",
+  "description": "WMO7900596",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.641056666666667,
+          41.50823,
+          37.05515,
+          43.59460666666666
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-12-06T00:12:00",
+          "2023-04-10T05:49:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo7900596.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "latitude": {
+      "minimum": "41.50823",
+      "maximum": "43.5946066666667"
+    },
+    "longitude": {
+      "minimum": "28.6410566666667",
+      "maximum": "37.05515"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "123"
+    },
+    "pres (decibar)": {
+      "minimum": "5.1",
+      "maximum": "2028.9"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal (psu)": {
+      "minimum": "18.014",
+      "maximum": "22.325"
+    },
+    "psal_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "7.578",
+      "maximum": "27.123"
+    },
+    "temp_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    }
+  }
+}

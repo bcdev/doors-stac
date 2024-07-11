@@ -1,0 +1,120 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo6901834",
+  "title": "WMO6901834",
+  "description": "WMO6901834",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.600452,
+          41.103157,
+          41.707617,
+          44.727727
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-11-25T07:39:00",
+          "2021-04-04T00:16:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo6901834.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "platform_number": {
+      "minimum": "6901834",
+      "maximum": "6901834"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "392"
+    },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "latitude": {
+      "minimum": "41.103157",
+      "maximum": "44.727727"
+    },
+    "longitude": {
+      "minimum": "28.600452",
+      "maximum": "41.707617"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "8"
+    },
+    "pres (decibar)": {
+      "minimum": "5.1",
+      "maximum": "1513.9"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted (decibar)": {
+      "minimum": "5.1",
+      "maximum": "1513.9"
+    },
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
+    },
+    "psal (psu)": {
+      "minimum": "17.434",
+      "maximum": "22.35"
+    },
+    "psal_qc": {
+      "minimum": "1",
+      "maximum": "4"
+    },
+    "psal_adjusted (psu)": {
+      "minimum": "17.41416",
+      "maximum": "22.32432"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.01",
+      "maximum": "0.01"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "6.795",
+      "maximum": "27.906"
+    },
+    "temp_qc": {
+      "minimum": "1",
+      "maximum": "4"
+    },
+    "temp_adjusted (\u00b0c)": {
+      "minimum": "6.795",
+      "maximum": "27.906"
+    },
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
+    }
+  }
+}

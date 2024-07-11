@@ -25,6 +25,510 @@
       "href": "gloria_platform_(version_3_seaprism_processing).json",
       "type": "application/json",
       "title": "Gloria platform (Version 3 SEAPRISM Processing)"
+    },
+    {
+      "rel": "child",
+      "href": "section_7_(version_3_seaprism_processing).json",
+      "type": "application/json",
+      "title": "Section 7 (Version 3 SEAPRISM Processing)"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3901852.json",
+      "type": "application/json",
+      "title": "WMO3901852"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3901854.json",
+      "type": "application/json",
+      "title": "WMO3901854"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3901855.json",
+      "type": "application/json",
+      "title": "WMO3901855"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3902004.json",
+      "type": "application/json",
+      "title": "WMO3902004"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3902005.json",
+      "type": "application/json",
+      "title": "WMO3902005"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3902006.json",
+      "type": "application/json",
+      "title": "WMO3902006"
+    },
+    {
+      "rel": "child",
+      "href": "wmo4903711.json",
+      "type": "application/json",
+      "title": "WMO4903711"
+    },
+    {
+      "rel": "child",
+      "href": "wmo5906866.json",
+      "type": "application/json",
+      "title": "WMO5906866"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6900803.json",
+      "type": "application/json",
+      "title": "WMO6900803"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6900804.json",
+      "type": "application/json",
+      "title": "WMO6900804"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6900805.json",
+      "type": "application/json",
+      "title": "WMO6900805"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901828.json",
+      "type": "application/json",
+      "title": "WMO6901828"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901831.json",
+      "type": "application/json",
+      "title": "WMO6901831"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901832.json",
+      "type": "application/json",
+      "title": "WMO6901832"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901833.json",
+      "type": "application/json",
+      "title": "WMO6901833"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901834.json",
+      "type": "application/json",
+      "title": "WMO6901834"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901895.json",
+      "type": "application/json",
+      "title": "WMO6901895"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901896.json",
+      "type": "application/json",
+      "title": "WMO6901896"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901899.json",
+      "type": "application/json",
+      "title": "WMO6901899"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901900.json",
+      "type": "application/json",
+      "title": "WMO6901900"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901959.json",
+      "type": "application/json",
+      "title": "WMO6901959"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901961.json",
+      "type": "application/json",
+      "title": "WMO6901961"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901962.json",
+      "type": "application/json",
+      "title": "WMO6901962"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903228.json",
+      "type": "application/json",
+      "title": "WMO6903228"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903271.json",
+      "type": "application/json",
+      "title": "WMO6903271"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903766.json",
+      "type": "application/json",
+      "title": "WMO6903766"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903782.json",
+      "type": "application/json",
+      "title": "WMO6903782"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903865.json",
+      "type": "application/json",
+      "title": "WMO6903865"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903866.json",
+      "type": "application/json",
+      "title": "WMO6903866"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903867.json",
+      "type": "application/json",
+      "title": "WMO6903867"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900590.json",
+      "type": "application/json",
+      "title": "WMO7900590"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900592.json",
+      "type": "application/json",
+      "title": "WMO7900592"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900593.json",
+      "type": "application/json",
+      "title": "WMO7900593"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900594.json",
+      "type": "application/json",
+      "title": "WMO7900594"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900595.json",
+      "type": "application/json",
+      "title": "WMO7900595"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900596.json",
+      "type": "application/json",
+      "title": "WMO7900596"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7901065.json",
+      "type": "application/json",
+      "title": "WMO7901065"
+    },
+    {
+      "rel": "child",
+      "href": "aerosol_optical_thickness.json",
+      "type": "application/json",
+      "title": "Aerosol_Optical_Thickness"
+    },
+    {
+      "rel": "child",
+      "href": "apparant_optical_properties.json",
+      "type": "application/json",
+      "title": "Apparant_Optical_Properties"
+    },
+    {
+      "rel": "child",
+      "href": "chlorophyll-a_and_tsm.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a_and_TSM"
+    },
+    {
+      "rel": "child",
+      "href": "phytoplankton.json",
+      "type": "application/json",
+      "title": "Phytoplankton"
+    },
+    {
+      "rel": "child",
+      "href": "aerosol_optical_thickness.json",
+      "type": "application/json",
+      "title": "Aerosol_Optical_Thickness"
+    },
+    {
+      "rel": "child",
+      "href": "apparant_optical_properties.json",
+      "type": "application/json",
+      "title": "Apparant_Optical_Properties"
+    },
+    {
+      "rel": "child",
+      "href": "chlorophyll-a_and_tsm.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a_and_TSM"
+    },
+    {
+      "rel": "child",
+      "href": "terrestrial_heat_flow.json",
+      "type": "application/json",
+      "title": "Terrestrial_Heat_Flow"
+    },
+    {
+      "rel": "child",
+      "href": "aerosol_optical_thickness.json",
+      "type": "application/json",
+      "title": "Aerosol_Optical_Thickness"
+    },
+    {
+      "rel": "child",
+      "href": "chlorophyll-a_and_tsm.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a_and_TSM"
+    },
+    {
+      "rel": "child",
+      "href": "floating_marine_litter.json",
+      "type": "application/json",
+      "title": "Floating_Marine_Litter"
+    },
+    {
+      "rel": "child",
+      "href": "moorings_burgas_bay_wavebuoy.json",
+      "type": "application/json",
+      "title": "moorings_Burgas_Bay_wavebuoy"
+    },
+    {
+      "rel": "child",
+      "href": "moorings_varna_bay_wavebuoy.json",
+      "type": "application/json",
+      "title": "moorings_Varna_Bay_wavebuoy"
+    },
+    {
+      "rel": "child",
+      "href": "bg_fml_2016-2018.json",
+      "type": "application/json",
+      "title": "BG_FML_2016-2018"
+    },
+    {
+      "rel": "child",
+      "href": "bio-optical-data-k05_2011.json",
+      "type": "application/json",
+      "title": "bio-optical-data-K05_2011"
+    },
+    {
+      "rel": "child",
+      "href": "bio-optical-data-k09_2016.json",
+      "type": "application/json",
+      "title": "bio-optical-data-K09_2016"
+    },
+    {
+      "rel": "child",
+      "href": "bio-optical-data-k11_2019.json",
+      "type": "application/json",
+      "title": "bio-optical-data-K11_2019"
+    },
+    {
+      "rel": "child",
+      "href": "bio-optical-data-k12_2019.json",
+      "type": "application/json",
+      "title": "bio-optical-data-K12_2019"
+    },
+    {
+      "rel": "child",
+      "href": "io-bas_national_monitoring_chl.json",
+      "type": "application/json",
+      "title": "IO-BAS_National_Monitoring_CHL"
+    },
+    {
+      "rel": "child",
+      "href": "bio-opt_iop_2019.json",
+      "type": "application/json",
+      "title": "Bio-opt_IOP_2019"
+    },
+    {
+      "rel": "child",
+      "href": "anemone_chl_2019_2020.json",
+      "type": "application/json",
+      "title": "ANEMONE_CHL_2019_2020"
+    },
+    {
+      "rel": "child",
+      "href": "anemone_nutrients_2019_2020.json",
+      "type": "application/json",
+      "title": "ANEMONE_Nutrients_2019_2020"
+    },
+    {
+      "rel": "child",
+      "href": "emblas_chl_2016_2019.json",
+      "type": "application/json",
+      "title": "EMBLAS_CHL_2016_2019"
+    },
+    {
+      "rel": "child",
+      "href": "emblas_nutrients_2016_2019.json",
+      "type": "application/json",
+      "title": "EMBLAS_Nutrients_2016_2019"
+    },
+    {
+      "rel": "child",
+      "href": "emblas_physics_2016_2019.json",
+      "type": "application/json",
+      "title": "EMBLAS_Physics_2016_2019"
+    },
+    {
+      "rel": "child",
+      "href": "euxro03_iulie_2021_rr.json",
+      "type": "application/json",
+      "title": "EuxRo03 Iulie 2021_RR"
+    },
+    {
+      "rel": "child",
+      "href": "bathymetry_good.json",
+      "type": "application/json",
+      "title": "Bathymetry_good"
+    },
+    {
+      "rel": "child",
+      "href": "macrozoobenthos.json",
+      "type": "application/json",
+      "title": "Macrozoobenthos"
+    },
+    {
+      "rel": "child",
+      "href": "macrozooplankton.json",
+      "type": "application/json",
+      "title": "Macrozooplankton"
+    },
+    {
+      "rel": "child",
+      "href": "meiobenthos.json",
+      "type": "application/json",
+      "title": "Meiobenthos"
+    },
+    {
+      "rel": "child",
+      "href": "mesozooplankton.json",
+      "type": "application/json",
+      "title": "Mesozooplankton"
+    },
+    {
+      "rel": "child",
+      "href": "aerosol_optical_thickness.json",
+      "type": "application/json",
+      "title": "Aerosol_Optical_Thickness"
+    },
+    {
+      "rel": "child",
+      "href": "chlorophyll-a_hplc.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a_HPLC"
+    },
+    {
+      "rel": "child",
+      "href": "coloured_dissolved_organic_matter.json",
+      "type": "application/json",
+      "title": "Coloured_Dissolved_Organic_Matter"
+    },
+    {
+      "rel": "child",
+      "href": "particulate_absorption_coefficient.json",
+      "type": "application/json",
+      "title": "Particulate_Absorption_Coefficient"
+    },
+    {
+      "rel": "child",
+      "href": "remote_sensing_reflectance.json",
+      "type": "application/json",
+      "title": "Remote_Sensing_Reflectance"
+    },
+    {
+      "rel": "child",
+      "href": "aerosol_optical_thickness.json",
+      "type": "application/json",
+      "title": "Aerosol_Optical_Thickness"
+    },
+    {
+      "rel": "child",
+      "href": "chlorophyll-a_hplc.json",
+      "type": "application/json",
+      "title": "Chlorophyll-a_HPLC"
+    },
+    {
+      "rel": "child",
+      "href": "coloured_dissolved_organic_matter.json",
+      "type": "application/json",
+      "title": "Coloured_Dissolved_Organic_Matter"
+    },
+    {
+      "rel": "child",
+      "href": "particulate_absorption_coefficient.json",
+      "type": "application/json",
+      "title": "Particulate_Absorption_Coefficient"
+    },
+    {
+      "rel": "child",
+      "href": "remote_sensing_reflectance.json",
+      "type": "application/json",
+      "title": "Remote_Sensing_Reflectance"
+    },
+    {
+      "rel": "child",
+      "href": "geochemisty_of_pore_water.json",
+      "type": "application/json",
+      "title": "Geochemisty_of_pore_water"
+    },
+    {
+      "rel": "child",
+      "href": "methane_data.json",
+      "type": "application/json",
+      "title": "Methane_data"
+    },
+    {
+      "rel": "child",
+      "href": "beloslav_meteo.json",
+      "type": "application/json",
+      "title": "Beloslav_Meteo"
+    },
+    {
+      "rel": "child",
+      "href": "monitoring_may_2022_oct_2023.json",
+      "type": "application/json",
+      "title": "monitoring_May_2022_Oct_2023"
+    },
+    {
+      "rel": "child",
+      "href": "varna_lakes_buoy1.json",
+      "type": "application/json",
+      "title": "Varna_Lakes_Buoy1"
     }
   ]
 }

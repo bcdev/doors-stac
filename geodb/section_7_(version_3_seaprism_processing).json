@@ -1,0 +1,944 @@
+{
+  "stac_version": "1.0.0",
+  "id": "section_7_(version_3_seaprism_processing)",
+  "title": "Section 7 (Version 3 SEAPRISM Processing)",
+  "description": "Section 7 (Version 3 SEAPRISM Processing)",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.4466,
+          44.5458,
+          29.4466,
+          44.5458
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-08-27T05:06:12",
+          "2022-06-28T06:31:43"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "section_7_(version_3_seaprism_processing).json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "day_of_year": {
+      "minimum": "2",
+      "maximum": "365"
+    },
+    "day_of_year(fraction)": {
+      "minimum": "2.320475",
+      "maximum": "365.485544"
+    },
+    "solar_zenith_angle[400nm]": {
+      "minimum": "21.586316",
+      "maximum": "82.740329"
+    },
+    "solar_zenith_angle[412nm]": {
+      "minimum": "21.575721",
+      "maximum": "82.696226"
+    },
+    "solar_zenith_angle[443nm]": {
+      "minimum": "21.565242",
+      "maximum": "82.654884"
+    },
+    "solar_zenith_angle[490nm]": {
+      "minimum": "21.554878",
+      "maximum": "82.613548"
+    },
+    "solar_zenith_angle[510nm]": {
+      "minimum": "21.54463",
+      "maximum": "82.573073"
+    },
+    "solar_zenith_angle[560nm]": {
+      "minimum": "21.534499",
+      "maximum": "82.533533"
+    },
+    "solar_zenith_angle[620nm]": {
+      "minimum": "21.524484",
+      "maximum": "82.493974"
+    },
+    "solar_zenith_angle[667nm]": {
+      "minimum": "21.51393",
+      "maximum": "82.454396"
+    },
+    "solar_zenith_angle[779nm]": {
+      "minimum": "21.504156",
+      "maximum": "82.414799"
+    },
+    "solar_zenith_angle[865nm]": {
+      "minimum": "21.494499",
+      "maximum": "82.372541"
+    },
+    "solar_zenith_angle[1020nm]": {
+      "minimum": "21.483696",
+      "maximum": "82.338192"
+    },
+    "solar_azimuth_angle[400nm]": {
+      "minimum": "80.415708",
+      "maximum": "295.959548"
+    },
+    "solar_azimuth_angle[412nm]": {
+      "minimum": "80.372508",
+      "maximum": "295.915415"
+    },
+    "solar_azimuth_angle[443nm]": {
+      "minimum": "80.332017",
+      "maximum": "295.874051"
+    },
+    "solar_azimuth_angle[490nm]": {
+      "minimum": "80.291532",
+      "maximum": "295.832697"
+    },
+    "solar_azimuth_angle[510nm]": {
+      "minimum": "80.251054",
+      "maximum": "295.791354"
+    },
+    "solar_azimuth_angle[560nm]": {
+      "minimum": "80.210583",
+      "maximum": "295.75002"
+    },
+    "solar_azimuth_angle[620nm]": {
+      "minimum": "80.170119",
+      "maximum": "295.708696"
+    },
+    "solar_azimuth_angle[667nm]": {
+      "minimum": "80.129662",
+      "maximum": "295.667383"
+    },
+    "solar_azimuth_angle[779nm]": {
+      "minimum": "80.089211",
+      "maximum": "295.626079"
+    },
+    "solar_azimuth_angle[865nm]": {
+      "minimum": "80.048768",
+      "maximum": "295.582033"
+    },
+    "solar_azimuth_angle[1020nm]": {
+      "minimum": "80.00833",
+      "maximum": "295.546253"
+    },
+    "lt_mean[400nm]": {
+      "minimum": "0.057701",
+      "maximum": "1.747622"
+    },
+    "lt_mean[412nm]": {
+      "minimum": "0.070535",
+      "maximum": "2.305151"
+    },
+    "lt_mean[443nm]": {
+      "minimum": "0.080374",
+      "maximum": "3.118841"
+    },
+    "lt_mean[490nm]": {
+      "minimum": "0.096138",
+      "maximum": "4.212878"
+    },
+    "lt_mean[510nm]": {
+      "minimum": "0.103736",
+      "maximum": "4.117994"
+    },
+    "lt_mean[560nm]": {
+      "minimum": "0.078232",
+      "maximum": "3.470264"
+    },
+    "lt_mean[620nm]": {
+      "minimum": "0.028761",
+      "maximum": "1.057446"
+    },
+    "lt_mean[667nm]": {
+      "minimum": "0.024995",
+      "maximum": "0.679782"
+    },
+    "lt_mean[779nm]": {
+      "minimum": "0.009253",
+      "maximum": "0.199142"
+    },
+    "lt_mean[865nm]": {
+      "minimum": "0.00479",
+      "maximum": "0.147597"
+    },
+    "lt_mean[1020nm]": {
+      "minimum": "0.001963",
+      "maximum": "0.177079"
+    },
+    "lt_stddev[400nm]": {
+      "minimum": "0.001458",
+      "maximum": "0.299487"
+    },
+    "lt_stddev[412nm]": {
+      "minimum": "0.000854",
+      "maximum": "0.148361"
+    },
+    "lt_stddev[443nm]": {
+      "minimum": "0.001804",
+      "maximum": "0.169781"
+    },
+    "lt_stddev[490nm]": {
+      "minimum": "0.002",
+      "maximum": "0.179604"
+    },
+    "lt_stddev[510nm]": {
+      "minimum": "0.002111",
+      "maximum": "0.179264"
+    },
+    "lt_stddev[560nm]": {
+      "minimum": "0.001368",
+      "maximum": "0.168346"
+    },
+    "lt_stddev[620nm]": {
+      "minimum": "0.000873",
+      "maximum": "0.129547"
+    },
+    "lt_stddev[667nm]": {
+      "minimum": "0.000689",
+      "maximum": "0.129287"
+    },
+    "lt_stddev[779nm]": {
+      "minimum": "0.000481",
+      "maximum": "0.129448"
+    },
+    "lt_stddev[865nm]": {
+      "minimum": "0.000236",
+      "maximum": "0.129049"
+    },
+    "lt_stddev[1020nm]": {
+      "minimum": "0.000233",
+      "maximum": "0.128743"
+    },
+    "lt_min_rel[400nm]": {
+      "minimum": "0.05488",
+      "maximum": "1.698948"
+    },
+    "lt_min_rel[412nm]": {
+      "minimum": "0.065227",
+      "maximum": "2.216387"
+    },
+    "lt_min_rel[443nm]": {
+      "minimum": "0.070387",
+      "maximum": "2.982599"
+    },
+    "lt_min_rel[490nm]": {
+      "minimum": "0.088535",
+      "maximum": "4.05114"
+    },
+    "lt_min_rel[510nm]": {
+      "minimum": "0.09302",
+      "maximum": "3.999611"
+    },
+    "lt_min_rel[560nm]": {
+      "minimum": "0.073159",
+      "maximum": "3.322696"
+    },
+    "lt_min_rel[620nm]": {
+      "minimum": "0.024389",
+      "maximum": "1.018531"
+    },
+    "lt_min_rel[667nm]": {
+      "minimum": "0.021724",
+      "maximum": "0.650925"
+    },
+    "lt_min_rel[779nm]": {
+      "minimum": "0.007194",
+      "maximum": "0.150767"
+    },
+    "lt_min_rel[865nm]": {
+      "minimum": "0.002651",
+      "maximum": "0.097752"
+    },
+    "lt_min_rel[1020nm]": {
+      "minimum": "0.000339",
+      "maximum": "0.062999"
+    },
+    "li_mean[400nm]": {
+      "minimum": "1.804959",
+      "maximum": "12.437362"
+    },
+    "li_mean[412nm]": {
+      "minimum": "2.095807",
+      "maximum": "13.865519"
+    },
+    "li_mean[443nm]": {
+      "minimum": "2.069202",
+      "maximum": "13.332342"
+    },
+    "li_mean[490nm]": {
+      "minimum": "1.748683",
+      "maximum": "12.426016"
+    },
+    "li_mean[510nm]": {
+      "minimum": "1.56427",
+      "maximum": "11.814658"
+    },
+    "li_mean[560nm]": {
+      "minimum": "1.069548",
+      "maximum": "9.701232"
+    },
+    "li_mean[620nm]": {
+      "minimum": "0.757206",
+      "maximum": "7.519071"
+    },
+    "li_mean[667nm]": {
+      "minimum": "0.662845",
+      "maximum": "6.472702"
+    },
+    "li_mean[779nm]": {
+      "minimum": "0.340515",
+      "maximum": "4.710316"
+    },
+    "li_mean[865nm]": {
+      "minimum": "0.201433",
+      "maximum": "3.60595"
+    },
+    "li_mean[1020nm]": {
+      "minimum": "0.085613",
+      "maximum": "2.554342"
+    },
+    "li_stddev[400nm]": {
+      "minimum": "0.0",
+      "maximum": "0.043446"
+    },
+    "li_stddev[412nm]": {
+      "minimum": "0.0",
+      "maximum": "0.021991"
+    },
+    "li_stddev[443nm]": {
+      "minimum": "0.0",
+      "maximum": "0.023871"
+    },
+    "li_stddev[490nm]": {
+      "minimum": "0.0",
+      "maximum": "0.027986"
+    },
+    "li_stddev[510nm]": {
+      "minimum": "0.0",
+      "maximum": "0.026995"
+    },
+    "li_stddev[560nm]": {
+      "minimum": "0.0",
+      "maximum": "0.027876"
+    },
+    "li_stddev[620nm]": {
+      "minimum": "0.0",
+      "maximum": "0.02296"
+    },
+    "li_stddev[667nm]": {
+      "minimum": "0.0",
+      "maximum": "0.022914"
+    },
+    "li_stddev[779nm]": {
+      "minimum": "0.0",
+      "maximum": "0.019676"
+    },
+    "li_stddev[865nm]": {
+      "minimum": "0.0",
+      "maximum": "0.019715"
+    },
+    "li_stddev[1020nm]": {
+      "minimum": "0.0",
+      "maximum": "0.019603"
+    },
+    "rho[400nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[412nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[443nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[490nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[510nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[560nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[620nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[667nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[779nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[865nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "rho[1020nm]": {
+      "minimum": "0.02547",
+      "maximum": "0.046124"
+    },
+    "aerosol_optical_depth[400nm]": {
+      "minimum": "0.045739",
+      "maximum": "1.029948"
+    },
+    "aerosol_optical_depth[412nm]": {
+      "minimum": "0.042429",
+      "maximum": "0.990223"
+    },
+    "aerosol_optical_depth[443nm]": {
+      "minimum": "0.038676",
+      "maximum": "0.901546"
+    },
+    "aerosol_optical_depth[490nm]": {
+      "minimum": "0.034973",
+      "maximum": "0.77882"
+    },
+    "aerosol_optical_depth[510nm]": {
+      "minimum": "0.033459",
+      "maximum": "0.733562"
+    },
+    "aerosol_optical_depth[560nm]": {
+      "minimum": "0.029018",
+      "maximum": "0.635929"
+    },
+    "aerosol_optical_depth[620nm]": {
+      "minimum": "0.024937",
+      "maximum": "0.536093"
+    },
+    "aerosol_optical_depth[667nm]": {
+      "minimum": "0.021466",
+      "maximum": "0.469182"
+    },
+    "aerosol_optical_depth[779nm]": {
+      "minimum": "0.01838",
+      "maximum": "0.408645"
+    },
+    "aerosol_optical_depth[865nm]": {
+      "minimum": "0.015661",
+      "maximum": "0.393565"
+    },
+    "aerosol_optical_depth[1020nm]": {
+      "minimum": "0.010369",
+      "maximum": "0.373116"
+    },
+    "ozone_optical_depth[400nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "ozone_optical_depth[412nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "ozone_optical_depth[443nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "ozone_optical_depth[490nm]": {
+      "minimum": "0.005609",
+      "maximum": "0.007858"
+    },
+    "ozone_optical_depth[510nm]": {
+      "minimum": "0.011055",
+      "maximum": "0.015492"
+    },
+    "ozone_optical_depth[560nm]": {
+      "minimum": "0.027798",
+      "maximum": "0.038975"
+    },
+    "ozone_optical_depth[620nm]": {
+      "minimum": "0.028681",
+      "maximum": "0.040217"
+    },
+    "ozone_optical_depth[667nm]": {
+      "minimum": "0.013265",
+      "maximum": "0.018574"
+    },
+    "ozone_optical_depth[779nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "ozone_optical_depth[865nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "ozone_optical_depth[1020nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "rayleigh_optical_depth[400nm]": {
+      "minimum": "0.35377",
+      "maximum": "0.36785"
+    },
+    "rayleigh_optical_depth[412nm]": {
+      "minimum": "0.310105",
+      "maximum": "0.32234"
+    },
+    "rayleigh_optical_depth[443nm]": {
+      "minimum": "0.232707",
+      "maximum": "0.241482"
+    },
+    "rayleigh_optical_depth[490nm]": {
+      "minimum": "0.153145",
+      "maximum": "0.15892"
+    },
+    "rayleigh_optical_depth[510nm]": {
+      "minimum": "0.129908",
+      "maximum": "0.134807"
+    },
+    "rayleigh_optical_depth[560nm]": {
+      "minimum": "0.08867",
+      "maximum": "0.092014"
+    },
+    "rayleigh_optical_depth[620nm]": {
+      "minimum": "0.058558",
+      "maximum": "0.060766"
+    },
+    "rayleigh_optical_depth[667nm]": {
+      "minimum": "0.044082",
+      "maximum": "0.045744"
+    },
+    "rayleigh_optical_depth[779nm]": {
+      "minimum": "0.023225",
+      "maximum": "0.0241"
+    },
+    "rayleigh_optical_depth[865nm]": {
+      "minimum": "0.015223",
+      "maximum": "0.015797"
+    },
+    "rayleigh_optical_depth[1020nm]": {
+      "minimum": "0.007843",
+      "maximum": "0.008139"
+    },
+    "no2_optical_depth[400nm]": {
+      "minimum": "0.002577",
+      "maximum": "0.00324"
+    },
+    "no2_optical_depth[412nm]": {
+      "minimum": "0.002528",
+      "maximum": "0.003178"
+    },
+    "no2_optical_depth[443nm]": {
+      "minimum": "0.002051",
+      "maximum": "0.002578"
+    },
+    "no2_optical_depth[490nm]": {
+      "minimum": "0.001237",
+      "maximum": "0.001555"
+    },
+    "no2_optical_depth[510nm]": {
+      "minimum": "0.000918",
+      "maximum": "0.001154"
+    },
+    "no2_optical_depth[560nm]": {
+      "minimum": "0.000308",
+      "maximum": "0.000388"
+    },
+    "no2_optical_depth[620nm]": {
+      "minimum": "0.00012",
+      "maximum": "0.00015"
+    },
+    "no2_optical_depth[667nm]": {
+      "minimum": "3.3e-05",
+      "maximum": "4.1e-05"
+    },
+    "no2_optical_depth[779nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "no2_optical_depth[865nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "no2_optical_depth[1020nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[400nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[412nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[443nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[490nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[510nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[560nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[620nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[667nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[779nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[865nm]": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "water_vapor_optical_depth[1020nm]": {
+      "minimum": "0.000932",
+      "maximum": "0.009336"
+    },
+    "total_ozone(du)": {
+      "minimum": "290.896123",
+      "maximum": "375.392837"
+    },
+    "total_no2(du)": {
+      "minimum": "0.159179",
+      "maximum": "0.200084"
+    },
+    "total_precipitable_water(cm)": {
+      "minimum": "0.223884",
+      "maximum": "3.944175"
+    },
+    "chlorophyll-a": {
+      "minimum": "0.12934",
+      "maximum": "319.50213"
+    },
+    "wind_speed(m/s)": {
+      "minimum": "0.364134",
+      "maximum": "11.993306"
+    },
+    "pressure(hpa)": {
+      "minimum": "995.282059",
+      "maximum": "1032.812595"
+    },
+    "lw[400nm]": {
+      "minimum": "-0.001648",
+      "maximum": "1.477517"
+    },
+    "lw[412nm]": {
+      "minimum": "-0.001217",
+      "maximum": "1.973206"
+    },
+    "lw[443nm]": {
+      "minimum": "0.009685",
+      "maximum": "2.766155"
+    },
+    "lw[490nm]": {
+      "minimum": "0.036126",
+      "maximum": "3.872784"
+    },
+    "lw[510nm]": {
+      "minimum": "0.041082",
+      "maximum": "3.84804"
+    },
+    "lw[560nm]": {
+      "minimum": "0.040009",
+      "maximum": "3.214131"
+    },
+    "lw[620nm]": {
+      "minimum": "-0.001643",
+      "maximum": "0.876422"
+    },
+    "lw[667nm]": {
+      "minimum": "-0.002817",
+      "maximum": "0.553931"
+    },
+    "lw[779nm]": {
+      "minimum": "-0.024828",
+      "maximum": "0.101894"
+    },
+    "lw[865nm]": {
+      "minimum": "-0.016184",
+      "maximum": "0.038614"
+    },
+    "lw[1020nm]": {
+      "minimum": "-0.015345",
+      "maximum": "0.025665"
+    },
+    "lwq[400nm]": {
+      "minimum": "-0.001507",
+      "maximum": "1.422192"
+    },
+    "lwq[412nm]": {
+      "minimum": "-0.001099",
+      "maximum": "1.894832"
+    },
+    "lwq[443nm]": {
+      "minimum": "0.008386",
+      "maximum": "2.636654"
+    },
+    "lwq[490nm]": {
+      "minimum": "0.031272",
+      "maximum": "3.642381"
+    },
+    "lwq[510nm]": {
+      "minimum": "0.036421",
+      "maximum": "3.61498"
+    },
+    "lwq[560nm]": {
+      "minimum": "0.03706",
+      "maximum": "3.019315"
+    },
+    "lwq[620nm]": {
+      "minimum": "-0.001548",
+      "maximum": "0.785983"
+    },
+    "lwq[667nm]": {
+      "minimum": "-0.002713",
+      "maximum": "0.516878"
+    },
+    "lwq[779nm]": {
+      "minimum": "-0.024828",
+      "maximum": "0.101894"
+    },
+    "lwq[865nm]": {
+      "minimum": "-0.016184",
+      "maximum": "0.038614"
+    },
+    "lwq[1020nm]": {
+      "minimum": "-0.015345",
+      "maximum": "0.025665"
+    },
+    "lwn[400nm]": {
+      "minimum": "-0.009961",
+      "maximum": "2.669359"
+    },
+    "lwn[412nm]": {
+      "minimum": "-0.007147",
+      "maximum": "3.529005"
+    },
+    "lwn[443nm]": {
+      "minimum": "0.079857",
+      "maximum": "4.642118"
+    },
+    "lwn[490nm]": {
+      "minimum": "0.227188",
+      "maximum": "6.164591"
+    },
+    "lwn[510nm]": {
+      "minimum": "0.269651",
+      "maximum": "5.967143"
+    },
+    "lwn[560nm]": {
+      "minimum": "0.238845",
+      "maximum": "4.996289"
+    },
+    "lwn[620nm]": {
+      "minimum": "-0.009902",
+      "maximum": "1.326646"
+    },
+    "lwn[667nm]": {
+      "minimum": "-0.007044",
+      "maximum": "0.906855"
+    },
+    "lwn[779nm]": {
+      "minimum": "-0.044438",
+      "maximum": "0.14409"
+    },
+    "lwn[865nm]": {
+      "minimum": "-0.035716",
+      "maximum": "0.09836"
+    },
+    "lwn[1020nm]": {
+      "minimum": "-0.028457",
+      "maximum": "0.049372"
+    },
+    "lwn_f/q[400nm]": {
+      "minimum": "-0.008783",
+      "maximum": "2.519661"
+    },
+    "lwn_f/q[412nm]": {
+      "minimum": "-0.006043",
+      "maximum": "3.257822"
+    },
+    "lwn_f/q[443nm]": {
+      "minimum": "0.05952",
+      "maximum": "4.237675"
+    },
+    "lwn_f/q[490nm]": {
+      "minimum": "0.178201",
+      "maximum": "5.672447"
+    },
+    "lwn_f/q[510nm]": {
+      "minimum": "0.214108",
+      "maximum": "5.483505"
+    },
+    "lwn_f/q[560nm]": {
+      "minimum": "0.214344",
+      "maximum": "4.502456"
+    },
+    "lwn_f/q[620nm]": {
+      "minimum": "-0.009064",
+      "maximum": "1.160855"
+    },
+    "lwn_f/q[667nm]": {
+      "minimum": "-0.006258",
+      "maximum": "0.790734"
+    },
+    "lwn_f/q[779nm]": {
+      "minimum": "-0.044438",
+      "maximum": "0.14409"
+    },
+    "lwn_f/q[865nm]": {
+      "minimum": "-0.035716",
+      "maximum": "0.09836"
+    },
+    "lwn_f/q[1020nm]": {
+      "minimum": "-0.028457",
+      "maximum": "0.049372"
+    },
+    "lwn_iop[400nm]": {
+      "minimum": "-0.000183",
+      "maximum": "2.294836"
+    },
+    "lwn_iop[412nm]": {
+      "minimum": "-9.2e-05",
+      "maximum": "3.032129"
+    },
+    "lwn_iop[443nm]": {
+      "minimum": "0.070832",
+      "maximum": "3.982298"
+    },
+    "lwn_iop[490nm]": {
+      "minimum": "0.202478",
+      "maximum": "5.309064"
+    },
+    "lwn_iop[510nm]": {
+      "minimum": "0.243347",
+      "maximum": "5.139475"
+    },
+    "lwn_iop[560nm]": {
+      "minimum": "0.23264",
+      "maximum": "4.289267"
+    },
+    "lwn_iop[620nm]": {
+      "minimum": "-1.6e-05",
+      "maximum": "1.143869"
+    },
+    "lwn_iop[667nm]": {
+      "minimum": "-3.4e-05",
+      "maximum": "0.778514"
+    },
+    "lwn_iop[779nm]": {
+      "minimum": "-0.044438",
+      "maximum": "0.14409"
+    },
+    "lwn_iop[865nm]": {
+      "minimum": "-0.035716",
+      "maximum": "0.09836"
+    },
+    "lwn_iop[1020nm]": {
+      "minimum": "-0.028457",
+      "maximum": "0.049372"
+    },
+    "number_of_wavelengths": {
+      "minimum": "11",
+      "maximum": "11"
+    },
+    "exact_wavelengths(um)_400": {
+      "minimum": "0.399359",
+      "maximum": "0.40002"
+    },
+    "exact_wavelengths(um)_412": {
+      "minimum": "0.412247",
+      "maximum": "0.412898"
+    },
+    "exact_wavelengths(um)_443": {
+      "minimum": "0.442519",
+      "maximum": "0.442543"
+    },
+    "exact_wavelengths(um)_490": {
+      "minimum": "0.489878",
+      "maximum": "0.490019"
+    },
+    "exact_wavelengths(um)_510": {
+      "minimum": "0.509934",
+      "maximum": "0.509937"
+    },
+    "exact_wavelengths(um)_560": {
+      "minimum": "0.559839",
+      "maximum": "0.55988"
+    },
+    "exact_wavelengths(um)_620": {
+      "minimum": "0.619948",
+      "maximum": "0.620114"
+    },
+    "exact_wavelengths(um)_667": {
+      "minimum": "0.664868",
+      "maximum": "0.664913"
+    },
+    "exact_wavelengths(um)_779": {
+      "minimum": "0.778914",
+      "maximum": "0.778943"
+    },
+    "exact_wavelengths(um)_865": {
+      "minimum": "0.864884",
+      "maximum": "0.864907"
+    },
+    "exact_wavelengths(um)_1020": {
+      "minimum": "1.019498",
+      "maximum": "1.019699"
+    },
+    "site_latitude(degrees)": {
+      "minimum": "44.5458",
+      "maximum": "44.5458"
+    },
+    "site_longitude(degrees)": {
+      "minimum": "29.4466",
+      "maximum": "29.4466"
+    },
+    "site_elevation(m)": {
+      "minimum": "30",
+      "maximum": "30"
+    },
+    "aeronet_instrument_number": {
+      "minimum": "1005",
+      "maximum": "1013"
+    },
+    "asea(degrees)": {
+      "minimum": "-90",
+      "maximum": "90"
+    },
+    "zsea(degrees)": {
+      "minimum": "40",
+      "maximum": "40"
+    }
+  }
+}

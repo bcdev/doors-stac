@@ -1,0 +1,72 @@
+{
+  "stac_version": "1.0.0",
+  "id": "methane_data",
+  "title": "Methane_data",
+  "description": "Methane_data",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.47720821,
+          43.80259687,
+          31.26119512,
+          44.23099916
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-09-09T16:14:50",
+          "2021-09-17T01:54:39"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "methane_data.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.802597",
+      "maximum": "44.230999"
+    },
+    "longitude": {
+      "minimum": "29.477208",
+      "maximum": "31.261195"
+    },
+    "meas depth (m)": {
+      "minimum": "-0.674153",
+      "maximum": "574.029618"
+    },
+    "ch4 diss (ppm)": {
+      "minimum": "-0.352709",
+      "maximum": "10988.60683"
+    },
+    "ch4 diss (nmol/l-1)": {
+      "minimum": "-0.000605",
+      "maximum": "18.544325"
+    },
+    "d13ch4 diss (permil)": {
+      "minimum": "-154.669293",
+      "maximum": "182.284488"
+    }
+  }
+}

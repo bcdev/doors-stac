@@ -1,0 +1,92 @@
+{
+  "stac_version": "1.0.0",
+  "id": "chlorophyll-a_and_tsm",
+  "title": "Chlorophyll-a_and_TSM",
+  "description": "Chlorophyll-a_and_TSM",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.6489,
+          43.6601,
+          30.8349,
+          44.9174
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-01T15:12:00",
+          "2023-05-19T07:57:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "chlorophyll-a_and_tsm.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.6601",
+      "maximum": "44.9174"
+    },
+    "longitude": {
+      "minimum": "28.6489",
+      "maximum": "30.8349"
+    },
+    "station depth [m]": {
+      "minimum": "27.0",
+      "maximum": "1097.0"
+    },
+    "sampling depth [m]": {
+      "minimum": "0.0",
+      "maximum": "60.0"
+    },
+    "chl-a [mg/m3]": {
+      "minimum": "0.01",
+      "maximum": "5.556"
+    },
+    "tsm  [mg/l]": {
+      "minimum": "0.123",
+      "maximum": "5.988"
+    },
+    "secchi disk [m]": {
+      "minimum": "3.4",
+      "maximum": "15.5"
+    },
+    "temperature [\u00b0c]": {
+      "minimum": "8.397",
+      "maximum": "14.8826"
+    },
+    "salinity [psu]": {
+      "minimum": "12.8941",
+      "maximum": "21.882498"
+    },
+    "air temperature [\u00b0c]": {
+      "minimum": "11.8",
+      "maximum": "20.4"
+    },
+    "wind speed [m/s]": {
+      "minimum": "0.0",
+      "maximum": "8.5"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "stac_version": "1.0.0",
+  "id": "euxro03_iulie_2021_rr",
+  "title": "EuxRo03 Iulie 2021_RR",
+  "description": "EuxRo03 Iulie 2021_RR",
+  "providers": [
+    {
+      "name": "National Institute of Marine Geology and Geoecology of Romania",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.938168,
+          43.976833,
+          29.938168,
+          43.976833
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-07-01T02:00:00",
+          "2021-08-01T00:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "euxro03_iulie_2021_rr.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.976833",
+      "maximum": "43.976833"
+    },
+    "longitude": {
+      "minimum": "29.938168",
+      "maximum": "29.938168"
+    },
+    "srb air pressure [mbar] (3m asl)": {
+      "minimum": "1008.9",
+      "maximum": "1031.6"
+    },
+    "srb air temperature [\u00b0c] (3m asl)": {
+      "minimum": "18.300001",
+      "maximum": "29.1"
+    },
+    "srb water current direction [\u00b0n] (5m bsl)": {
+      "minimum": "0.90000004",
+      "maximum": "359.5"
+    },
+    "srb water conductivity [ms-cm] (5m bsl)": {
+      "minimum": "26.884",
+      "maximum": "30.957"
+    },
+    "srb water temperature [\u00b0c] (5m bsl)": {
+      "minimum": "23.203001",
+      "maximum": "27.754002"
+    },
+    "srb wind direction [\u00b0n] (3m asl)": {
+      "minimum": "-1",
+      "maximum": "359"
+    },
+    "srb wind speed [m-s] (3m asl)": {
+      "minimum": "0.5",
+      "maximum": "10.6"
+    },
+    "srb water current amplitude [cm-s] (5m bsl)": {
+      "minimum": "0.22",
+      "maximum": "63.8"
+    }
+  }
+}

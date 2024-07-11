@@ -1,0 +1,64 @@
+{
+  "stac_version": "1.0.0",
+  "id": "anemone_nutrients_2019_2020",
+  "title": "ANEMONE_Nutrients_2019_2020",
+  "description": "ANEMONE_Nutrients_2019_2020",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.0001,
+          41.1295,
+          36.6989,
+          46.6474
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2019-05-11T12:00:00",
+          "2020-01-18T12:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "anemone_nutrients_2019_2020.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "longitude": {
+      "minimum": "28.0001",
+      "maximum": "36.6989"
+    },
+    "latitude": {
+      "minimum": "41.1295",
+      "maximum": "46.6474"
+    },
+    "station depth [m]": {
+      "minimum": "1.0",
+      "maximum": "230.0"
+    },
+    "value": {
+      "minimum": "0.0",
+      "maximum": "23360.0"
+    }
+  }
+}

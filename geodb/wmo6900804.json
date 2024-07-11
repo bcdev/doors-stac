@@ -1,0 +1,144 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo6900804",
+  "title": "WMO6900804",
+  "description": "WMO6900804",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.401,
+          41.416,
+          40.577,
+          44.765
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2011-03-19T07:35:23",
+          "2013-07-01T08:37:13"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo6900804.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "platform_number": {
+      "minimum": "6900804",
+      "maximum": "6900804"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "168"
+    },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "latitude": {
+      "minimum": "41.416",
+      "maximum": "44.765"
+    },
+    "longitude": {
+      "minimum": "29.401",
+      "maximum": "40.577"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres (decibar)": {
+      "minimum": "3.7",
+      "maximum": "1500.9"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted (decibar)": {
+      "minimum": "3.5",
+      "maximum": "1500.8"
+    },
+    "pres_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
+    },
+    "psal (psu)": {
+      "minimum": "17.38",
+      "maximum": "22.327"
+    },
+    "psal_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal_adjusted (psu)": {
+      "minimum": "17.38003",
+      "maximum": "22.327002"
+    },
+    "psal_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.005",
+      "maximum": "0.005"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "6.018",
+      "maximum": "28.972"
+    },
+    "temp_qc": {
+      "minimum": "1",
+      "maximum": "8"
+    },
+    "temp_adjusted (\u00b0c)": {
+      "minimum": "6.018",
+      "maximum": "28.972"
+    },
+    "temp_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "8"
+    },
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
+    },
+    "doxy (micromole/kg)": {
+      "minimum": "5.277914",
+      "maximum": "340.51346"
+    },
+    "doxy_adjusted (micromole/kg)": {
+      "minimum": "5.662674",
+      "maximum": "365.33688"
+    },
+    "doxy_adjusted_error (micromole/kg)": {
+      "minimum": "10.541956",
+      "maximum": "16.14837"
+    }
+  }
+}

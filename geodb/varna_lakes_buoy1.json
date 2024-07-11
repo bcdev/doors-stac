@@ -1,0 +1,76 @@
+{
+  "stac_version": "1.0.0",
+  "id": "varna_lakes_buoy1",
+  "title": "Varna_Lakes_Buoy1",
+  "description": "Varna_Lakes_Buoy1",
+  "providers": [
+    {
+      "name": "GeoMarine",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.85687,
+          43.19288,
+          27.85687,
+          43.19288
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-07-04T15:00:00",
+          "2023-08-09T06:20:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "varna_lakes_buoy1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.19288",
+      "maximum": "43.19288"
+    },
+    "longitude": {
+      "minimum": "27.85687",
+      "maximum": "27.85687"
+    },
+    "turbidity [fnu]": {
+      "minimum": "0.0",
+      "maximum": "597.96"
+    },
+    "fluorescence [\u03bcg/l]": {
+      "minimum": "0.0",
+      "maximum": "152.56"
+    },
+    "bga [pct fs]": {
+      "minimum": "0.0",
+      "maximum": "153.87"
+    },
+    "depth [m]": {
+      "minimum": "1.5",
+      "maximum": "1.5"
+    },
+    "horizon [m]": {
+      "minimum": "16.5",
+      "maximum": "16.5"
+    }
+  }
+}
