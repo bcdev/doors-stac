@@ -1,0 +1,30 @@
+{
+  "stac_version": "1.0.0",
+  "id": "doors-geodb-catalog",
+  "title": "DOORS GeoDB Catalog",
+  "description": "A catalog providing an overview about the DOORS GeoDB Data",
+  "links": [
+    {
+      "rel": "self",
+      "href": "catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "galata_platform(version_3_seaprism_processing).json",
+      "type": "application/json",
+      "title": "Galata platform(Version 3 SEAPRISM Processing)"
+    },
+    {
+      "rel": "child",
+      "href": "gloria_platform_(version_3_seaprism_processing).json",
+      "type": "application/json",
+      "title": "Gloria platform (Version 3 SEAPRISM Processing)"
+    }
+  ]
+}
