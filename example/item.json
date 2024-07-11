@@ -1,0 +1,31 @@
+{
+  "stac_version": "1.0.0",
+  "id": "example-item",
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "datetime": "2020-01-01T00:00:00Z"
+  },
+  "assets": {
+    "example-asset": {
+      "href": "https://example.com/asset.tif",
+      "type": "image/tiff",
+      "title": "Example Asset"
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "item.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "collection.json",
+      "type": "application/json"
+    }
+  ]
+}

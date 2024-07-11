@@ -1,0 +1,23 @@
+{
+  "stac_version": "1.0.0",
+  "id": "example-catalog",
+  "description": "An example STAC catalog",
+  "links": [
+    {
+      "rel": "self",
+      "href": "catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "collection.json",
+      "type": "application/json",
+      "title": "Example Collection"
+    }
+  ]
+}
