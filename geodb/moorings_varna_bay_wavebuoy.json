@@ -15,8 +15,8 @@
     "spatial": {
       "bbox": [
         [
-          27.99513,
-          43.18142,
+          27.9086,
+          43.09835,
           27.99683,
           43.18298
         ]
@@ -26,7 +26,7 @@
       "interval": [
         [
           "2023-03-21T00:04:51",
-          "2024-07-11T12:17:30"
+          "2024-07-15T10:18:31"
         ]
       ]
     }
@@ -46,7 +46,7 @@
   "summaries": {
     "sea surface temperature [\u00b0c]": {
       "minimum": "6.32",
-      "maximum": "27.6"
+      "maximum": "29.1"
     },
     "barometric pressure [hpa]": {
       "minimum": "977.3",
@@ -89,11 +89,11 @@
       "maximum": "80.903"
     },
     "latitude": {
-      "minimum": "43.18142",
+      "minimum": "43.09835",
       "maximum": "43.18298"
     },
     "longitude": {
-      "minimum": "27.99513",
+      "minimum": "27.9086",
       "maximum": "27.99683"
     }
   }
