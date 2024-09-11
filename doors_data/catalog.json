@@ -1,0 +1,24 @@
+{
+  "stac_version": "1.0.0",
+  "id": "doors-data-catalog",
+  "title": "DOORS Data Catalog",
+  "description": "A catalog providing an overview about all DOORS Data Sets",
+  "links": [
+    {
+      "rel": "self",
+      "href": "catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "deltares_river_discharge.json",
+      "type": "application/json",
+      "title": "Deltares River Discharge"
+    }
+  ]
+}

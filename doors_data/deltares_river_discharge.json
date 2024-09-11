@@ -1,0 +1,27 @@
+{
+  "stac_version": "1.0.0",
+  "id": "deltares_river_discharge",
+  "title": "Deltares River Discharge",
+  "description": "",
+  "providers": [
+    {
+      "name": "Deltares",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "deltares_river_discharge.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ]
+  }
+}
