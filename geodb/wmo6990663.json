@@ -1,8 +1,8 @@
 {
   "stac_version": "1.0.0",
-  "id": "wmo6903867",
-  "title": "WMO6903867",
-  "description": "WMO6903867",
+  "id": "wmo6990663",
+  "title": "WMO6990663",
+  "description": "WMO6990663",
   "providers": [
     {
       "name": "Institute of Oceanology - BAS",
@@ -15,18 +15,18 @@
     "spatial": {
       "bbox": [
         [
-          28.82872,
-          41.52557,
-          34.45954,
-          43.43413
+          28.71527,
+          42.49559,
+          28.90518,
+          42.83466
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-11-17T23:01:00",
-          "2024-08-19T12:00:30"
+          "2024-07-16T08:09:00",
+          "2024-08-18T07:54:00"
         ]
       ]
     }
@@ -34,7 +34,7 @@
   "links": [
     {
       "rel": "self",
-      "href": "wmo6903867.json",
+      "href": "wmo6990663.json",
       "type": "application/json"
     },
     {
@@ -45,52 +45,48 @@
   ],
   "summaries": {
     "platform_number": {
-      "minimum": "6903867",
-      "maximum": "6903867"
+      "minimum": "6990663",
+      "maximum": "6990663"
     },
     "cycle_number": {
       "minimum": "1",
-      "maximum": "226"
+      "maximum": "4"
     },
     "time_qc": {
       "minimum": "1",
       "maximum": "1"
-    },
-    "latitude": {
-      "minimum": "41.52557",
-      "maximum": "43.43413"
-    },
-    "longitude": {
-      "minimum": "28.82872",
-      "maximum": "34.45954"
     },
     "position_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "pres (decibar)": {
-      "minimum": "2.1",
-      "maximum": "1527.9"
+      "minimum": "-0.1",
+      "maximum": "1703.0"
     },
     "pres_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "psal (psu)": {
-      "minimum": "16.958",
-      "maximum": "22.321"
+      "minimum": "18.539",
+      "maximum": "22.327"
     },
     "psal_qc": {
       "minimum": "1",
-      "maximum": "4"
+      "maximum": "3"
     },
     "temp (\u00b0c)": {
-      "minimum": "7.307",
-      "maximum": "27.98"
+      "minimum": "8.842",
+      "maximum": "27.615"
     },
     "temp_qc": {
       "minimum": "1",
-      "maximum": "4"
+      "maximum": "3"
+    },
+    "doxy (micromole/kg)": {
+      "minimum": "-1164.1553",
+      "maximum": "2231.8674"
     }
   }
 }

@@ -1,8 +1,8 @@
 {
   "stac_version": "1.0.0",
-  "id": "wmo6903867",
-  "title": "WMO6903867",
-  "description": "WMO6903867",
+  "id": "wmo1902575",
+  "title": "WMO1902575",
+  "description": "WMO1902575",
   "providers": [
     {
       "name": "Institute of Oceanology - BAS",
@@ -15,18 +15,18 @@
     "spatial": {
       "bbox": [
         [
-          28.82872,
-          41.52557,
-          34.45954,
-          43.43413
+          28.7787,
+          41.58568,
+          31.19898,
+          43.14742
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2020-11-17T23:01:00",
-          "2024-08-19T12:00:30"
+          "2023-11-30T03:23:00",
+          "2024-08-23T15:47:30"
         ]
       ]
     }
@@ -34,7 +34,7 @@
   "links": [
     {
       "rel": "self",
-      "href": "wmo6903867.json",
+      "href": "wmo1902575.json",
       "type": "application/json"
     },
     {
@@ -45,52 +45,44 @@
   ],
   "summaries": {
     "platform_number": {
-      "minimum": "6903867",
-      "maximum": "6903867"
+      "minimum": "1902575",
+      "maximum": "1902575"
     },
     "cycle_number": {
       "minimum": "1",
-      "maximum": "226"
+      "maximum": "27"
     },
     "time_qc": {
       "minimum": "1",
       "maximum": "1"
-    },
-    "latitude": {
-      "minimum": "41.52557",
-      "maximum": "43.43413"
-    },
-    "longitude": {
-      "minimum": "28.82872",
-      "maximum": "34.45954"
     },
     "position_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "pres (decibar)": {
-      "minimum": "2.1",
-      "maximum": "1527.9"
+      "minimum": "2.8",
+      "maximum": "1977.1"
     },
     "pres_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "psal (psu)": {
-      "minimum": "16.958",
-      "maximum": "22.321"
+      "minimum": "17.625",
+      "maximum": "22.324"
     },
     "psal_qc": {
       "minimum": "1",
-      "maximum": "4"
+      "maximum": "1"
     },
     "temp (\u00b0c)": {
-      "minimum": "7.307",
-      "maximum": "27.98"
+      "minimum": "8.656",
+      "maximum": "28.559"
     },
     "temp_qc": {
       "minimum": "1",
-      "maximum": "4"
+      "maximum": "1"
     }
   }
 }

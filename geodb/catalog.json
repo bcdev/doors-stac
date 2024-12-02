@@ -256,6 +256,24 @@
     },
     {
       "rel": "child",
+      "href": "wmo1902575.json",
+      "type": "application/json",
+      "title": "WMO1902575"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3902461.json",
+      "type": "application/json",
+      "title": "WMO3902461"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6990663.json",
+      "type": "application/json",
+      "title": "WMO6990663"
+    },
+    {
+      "rel": "child",
       "href": "aerosol_optical_thickness.json",
       "type": "application/json",
       "title": "Aerosol_Optical_Thickness"
