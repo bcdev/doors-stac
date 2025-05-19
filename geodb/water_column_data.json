@@ -1,0 +1,64 @@
+{
+  "stac_version": "1.0.0",
+  "id": "water_column_data",
+  "title": "Water_column_data",
+  "description": "Water_column_data",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.541698333333336,
+          41.726145305555555,
+          41.52861,
+          43.59671
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "water_column_data.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "41.726145305555555",
+      "maximum": "43.59671"
+    },
+    "longitude": {
+      "minimum": "29.541698333333336",
+      "maximum": "41.52861"
+    },
+    "water depth (m)": {
+      "minimum": "103.0",
+      "maximum": "2160.0"
+    },
+    "depth (m)": {
+      "minimum": "90",
+      "maximum": "800"
+    },
+    "t.a. (meq.l)": {
+      "minimum": "3.283",
+      "maximum": "3.903"
+    },
+    "ch4 hs (\u03bcm)": {
+      "minimum": "0.005",
+      "maximum": "12.122"
+    }
+  }
+}

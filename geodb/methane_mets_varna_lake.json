@@ -1,0 +1,44 @@
+{
+  "stac_version": "1.0.0",
+  "id": "methane_mets_varna_lake",
+  "title": "Methane_METS_Varna_Lake",
+  "description": "Methane_METS_Varna_Lake",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          43.192883,
+          27.856867,
+          43.192883,
+          27.856867
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "methane_mets_varna_lake.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "water depth (m)": {
+      "minimum": "16",
+      "maximum": "16"
+    }
+  }
+}

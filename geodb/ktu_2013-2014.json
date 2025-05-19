@@ -1,0 +1,92 @@
+{
+  "stac_version": "1.0.0",
+  "id": "ktu_2013-2014",
+  "title": "KTU_2013-2014",
+  "description": "KTU_2013-2014",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          39.738056,
+          41.001003,
+          39.768925,
+          41.012772
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-11-26T05:30:00",
+          "2014-05-25T10:38:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "ktu_2013-2014.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "41.001003",
+      "maximum": "41.012772"
+    },
+    "longitude": {
+      "minimum": "39.738056",
+      "maximum": "39.768925"
+    },
+    "station depth (m)": {
+      "minimum": "1.0",
+      "maximum": "47.0"
+    },
+    "sampling depth (m)": {
+      "minimum": "0.62",
+      "maximum": "46.9"
+    },
+    "tsm (mg/l)": {
+      "minimum": "3.0",
+      "maximum": "489.0"
+    },
+    "temperature (\u00b0c)": {
+      "minimum": "6.2",
+      "maximum": "22.1614"
+    },
+    "salinity (psu)": {
+      "minimum": "0.01",
+      "maximum": "18.164"
+    },
+    "oxygen (mg/l)": {
+      "minimum": "4.3",
+      "maximum": "10.495"
+    },
+    "oxygen (%)": {
+      "minimum": "8.72",
+      "maximum": "120.08"
+    },
+    "conductivity (ohm-1)": {
+      "minimum": "-0.005",
+      "maximum": "28.57"
+    },
+    "sound (m/s)": {
+      "minimum": "1466.235",
+      "maximum": "1505.689"
+    }
+  }
+}

@@ -81,24 +81,24 @@
       "maximum": "3662940.0"
     },
     "acanthoica sp. b[mg/m^3]": {
-      "minimum": "1.44541788333333",
-      "maximum": "24.5721040166667"
+      "minimum": "1.4454178833333335",
+      "maximum": "24.572104016666668"
     },
     "calyptrosphaera oblonga  b[mg/m^3]": {
-      "minimum": "2.56358833487925",
+      "minimum": "2.5635883348792503",
       "maximum": "5.74822629381"
     },
     "coccolithus sp.3 (18)  b[mg/m^3]": {
-      "minimum": "8.6255135343564",
-      "maximum": "267.671927460425"
+      "minimum": "8.625513534356402",
+      "maximum": "267.6719274604251"
     },
     "coronosphaera mediterranea b[mg/m^3]": {
-      "minimum": "12.6489681484794",
-      "maximum": "350.202227971381"
+      "minimum": "12.648968148479424",
+      "maximum": "350.2022279713815"
     },
     "emiliania huxleyi  b[mg/m^3]": {
-      "minimum": "10.9184754071929",
-      "maximum": "443.768186900382"
+      "minimum": "10.918475407192883",
+      "maximum": "443.7681869003817"
     }
   }
 }

@@ -1,0 +1,39 @@
+{
+  "stac_version": "1.0.0",
+  "id": "sediment_data_exr",
+  "title": "Sediment_data_EXR",
+  "description": "Sediment_data_EXR",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.545283333333334,
+          41.72610377777778,
+          41.731073,
+          43.59621666666667
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "sediment_data_exr.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {}
+}

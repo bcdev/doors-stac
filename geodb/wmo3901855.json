@@ -15,10 +15,10 @@
     "spatial": {
       "bbox": [
         [
-          28.429963333333333,
-          41.343855,
-          39.97791166666666,
-          44.790725
+          28.42996,
+          41.34386,
+          39.97791,
+          44.79072
         ]
       ]
     },
@@ -39,52 +39,40 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
   "summaries": {
+    "platform_number": {
+      "minimum": "3901855",
+      "maximum": "3901855"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "411"
+    },
     "time_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "latitude": {
-      "minimum": "41.343855",
-      "maximum": "44.790725"
+      "minimum": "41.34386",
+      "maximum": "44.79072"
     },
     "longitude": {
-      "minimum": "28.4299633333333",
-      "maximum": "39.9779116666667"
+      "minimum": "28.42996",
+      "maximum": "39.97791"
     },
     "position_qc": {
       "minimum": "1",
       "maximum": "1"
-    },
-    "cycle_number": {
-      "minimum": "1",
-      "maximum": "411"
     },
     "pres (decibar)": {
       "minimum": "3.0",
       "maximum": "1531.4"
     },
     "pres_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
-    "psal (psu)": {
-      "minimum": "17.157",
-      "maximum": "22.515"
-    },
-    "psal_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
-    "temp (\u00b0c)": {
-      "minimum": "4.678",
-      "maximum": "28.357"
-    },
-    "temp_qc": {
       "minimum": "1",
       "maximum": "1"
     },
@@ -96,13 +84,17 @@
       "minimum": "1",
       "maximum": "1"
     },
-    "temp_adjusted (\u00b0c)": {
-      "minimum": "4.678",
-      "maximum": "28.357"
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
     },
-    "temp_adjusted_qc": {
+    "psal (psu)": {
+      "minimum": "17.157",
+      "maximum": "22.515"
+    },
+    "psal_qc": {
       "minimum": "1",
-      "maximum": "1"
+      "maximum": "4"
     },
     "psal_adjusted (psu)": {
       "minimum": "17.1139",
@@ -110,7 +102,31 @@
     },
     "psal_adjusted_qc": {
       "minimum": "1",
-      "maximum": "1"
+      "maximum": "4"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.01",
+      "maximum": "0.01"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "4.678",
+      "maximum": "28.357"
+    },
+    "temp_qc": {
+      "minimum": "1",
+      "maximum": "4"
+    },
+    "temp_adjusted (\u00b0c)": {
+      "minimum": "4.678",
+      "maximum": "28.357"
+    },
+    "temp_adjusted_qc": {
+      "minimum": "1",
+      "maximum": "4"
+    },
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
     }
   }
 }

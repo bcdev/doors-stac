@@ -15,10 +15,10 @@
     "spatial": {
       "bbox": [
         [
-          28.589955,
-          41.56190166666666,
-          32.080975,
-          42.99394333333333
+          28.58904,
+          41.5619,
+          32.08098,
+          42.99394
         ]
       ]
     },
@@ -39,86 +39,82 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
   "summaries": {
-    "time_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
-    "latitude": {
-      "minimum": "41.5619016666667",
-      "maximum": "42.9939433333333"
-    },
-    "longitude": {
-      "minimum": "28.589955",
-      "maximum": "32.080975"
-    },
-    "position_qc": {
-      "minimum": "1",
-      "maximum": "1"
+    "platform_number": {
+      "minimum": "7900593",
+      "maximum": "7900593"
     },
     "cycle_number": {
       "minimum": "6",
       "maximum": "64"
     },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
     "pres (decibar)": {
-      "minimum": "5.4",
+      "minimum": "0.0",
       "maximum": "1908.3"
     },
     "pres_qc": {
       "minimum": "1",
       "maximum": "1"
     },
-    "psal (psu)": {
-      "minimum": "17.024",
-      "maximum": "22.337"
-    },
-    "psal_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
-    "temp (\u00b0c)": {
-      "minimum": "6.367",
-      "maximum": "27.437"
-    },
-    "temp_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
     "pres_adjusted (decibar)": {
-      "minimum": "5.4",
+      "minimum": "0.0",
       "maximum": "1908.3"
     },
     "pres_adjusted_qc": {
       "minimum": "1",
       "maximum": "1"
     },
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
+    },
+    "psal (psu)": {
+      "minimum": "16.209",
+      "maximum": "22.337"
+    },
+    "psal_adjusted (psu)": {
+      "minimum": "16.475",
+      "maximum": "22.337"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.01",
+      "maximum": "1660326.8"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "6.367",
+      "maximum": "27.437"
+    },
     "temp_adjusted (\u00b0c)": {
       "minimum": "6.367",
       "maximum": "27.437"
     },
-    "temp_adjusted_qc": {
-      "minimum": "1",
-      "maximum": "1"
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
     },
-    "psal_adjusted (psu)": {
-      "minimum": "17.024",
-      "maximum": "22.337"
+    "doxy (micromole/kg)": {
+      "minimum": "0.66136",
+      "maximum": "328.07602"
     },
-    "psal_adjusted_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
-    "doxy_adjusted (\u03bcmol/kg)": {
+    "doxy_adjusted (micromole/kg)": {
       "minimum": "0.72452",
-      "maximum": "358.53787"
+      "maximum": "359.4073"
     },
-    "doxy_adjusted_qc": {
-      "minimum": "1",
-      "maximum": "1"
+    "doxy_adjusted_error (micromole/kg)": {
+      "minimum": "10.85514",
+      "maximum": "16.11947"
     }
   }
 }

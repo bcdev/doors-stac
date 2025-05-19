@@ -1,0 +1,60 @@
+{
+  "stac_version": "1.0.0",
+  "id": "asv_16s_sediment_data",
+  "title": "ASV_16S_Sediment_data",
+  "description": "ASV_16S_Sediment_data",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.48256667,
+          43.93950167,
+          31.25063217,
+          44.224975
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "asv_16s_sediment_data.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.939502",
+      "maximum": "44.224975"
+    },
+    "longitude": {
+      "minimum": "29.482567",
+      "maximum": "31.250632"
+    },
+    "water depth (m)": {
+      "minimum": "59.0",
+      "maximum": "739.0"
+    },
+    "sediment depth (cmbsf)": {
+      "minimum": "0.13",
+      "maximum": "29.34"
+    },
+    "asv number": {
+      "minimum": "1",
+      "maximum": "12562"
+    }
+  }
+}

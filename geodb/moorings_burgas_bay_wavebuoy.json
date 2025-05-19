@@ -17,8 +17,8 @@
         [
           27.50038,
           42.49261,
-          27.50182,
-          42.49407
+          27.50232,
+          42.49422
         ]
       ]
     },
@@ -26,7 +26,7 @@
       "interval": [
         [
           "2023-11-23T00:30:00",
-          "2024-08-13T09:30:00"
+          "2025-04-29T05:30:00"
         ]
       ]
     }
@@ -45,7 +45,7 @@
   ],
   "summaries": {
     "sea surface temperature [\u00b0c]": {
-      "minimum": "5.76",
+      "minimum": "4.84",
       "maximum": "29.43"
     },
     "barometric pressure [hpa]": {
@@ -62,39 +62,39 @@
     },
     "significant wave height [m]": {
       "minimum": "0.03",
-      "maximum": "2.167"
+      "maximum": "2.799"
     },
     "peak period [sec]": {
       "minimum": "1.264",
       "maximum": "25.602"
     },
     "mean period [sec]": {
-      "minimum": "1.696",
+      "minimum": "1.69",
       "maximum": "18.083"
     },
     "peak direction [deg]": {
-      "minimum": "0.061",
+      "minimum": "0.009",
       "maximum": "359.988"
     },
     "peak directional spread [deg]": {
-      "minimum": "17.31",
+      "minimum": "14.984",
       "maximum": "80.984"
     },
     "mean direction [deg]": {
       "minimum": "0.497",
-      "maximum": "359.826"
+      "maximum": "359.877"
     },
     "mean directional spread [deg]": {
-      "minimum": "25.643",
+      "minimum": "22.567",
       "maximum": "80.947"
     },
     "latitude": {
       "minimum": "42.49261",
-      "maximum": "42.49407"
+      "maximum": "42.49422"
     },
     "longitude": {
       "minimum": "27.50038",
-      "maximum": "27.50182"
+      "maximum": "27.50232"
     }
   }
 }

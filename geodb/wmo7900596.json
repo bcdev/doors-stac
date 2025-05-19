@@ -15,10 +15,10 @@
     "spatial": {
       "bbox": [
         [
-          28.641056666666667,
+          28.64106,
           41.50823,
           37.05515,
-          43.59460666666666
+          43.59461
         ]
       ]
     },
@@ -39,33 +39,29 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
   "summaries": {
-    "time_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
-    "latitude": {
-      "minimum": "41.50823",
-      "maximum": "43.5946066666667"
-    },
-    "longitude": {
-      "minimum": "28.6410566666667",
-      "maximum": "37.05515"
-    },
-    "position_qc": {
-      "minimum": "1",
-      "maximum": "1"
+    "platform_number": {
+      "minimum": "7900596",
+      "maximum": "7900596"
     },
     "cycle_number": {
       "minimum": "1",
       "maximum": "123"
     },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
     "pres (decibar)": {
-      "minimum": "5.1",
+      "minimum": "-0.22",
       "maximum": "2028.9"
     },
     "pres_qc": {
@@ -76,17 +72,21 @@
       "minimum": "18.014",
       "maximum": "22.325"
     },
-    "psal_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
     "temp (\u00b0c)": {
       "minimum": "7.578",
-      "maximum": "27.123"
+      "maximum": "27.426"
     },
-    "temp_qc": {
-      "minimum": "1",
-      "maximum": "1"
+    "doxy (micromole/kg)": {
+      "minimum": "1.1193",
+      "maximum": "301.18674"
+    },
+    "doxy_adjusted (micromole/kg)": {
+      "minimum": "1.27448",
+      "maximum": "327.2684"
+    },
+    "doxy_adjusted_error (micromole/kg)": {
+      "minimum": "10.73462",
+      "maximum": "15.44987"
     }
   }
 }

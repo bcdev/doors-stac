@@ -1,0 +1,96 @@
+{
+  "stac_version": "1.0.0",
+  "id": "ktu_2021-2022",
+  "title": "KTU_2021-2022",
+  "description": "KTU_2021-2022",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          39.423248,
+          41.10243,
+          41.439599,
+          41.43004
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2021-10-14T07:00:00",
+          "2022-07-28T10:36:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "ktu_2021-2022.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "41.10243",
+      "maximum": "41.43004"
+    },
+    "longitude": {
+      "minimum": "39.423248",
+      "maximum": "41.439599"
+    },
+    "station depth (m)": {
+      "minimum": "4",
+      "maximum": "55"
+    },
+    "sampling depth (m)": {
+      "minimum": "0.0",
+      "maximum": "53.024"
+    },
+    "tsm (mg/l)": {
+      "minimum": "1.24",
+      "maximum": "48.2"
+    },
+    "temperature (\u00b0c)": {
+      "minimum": "8.6013",
+      "maximum": "27.613"
+    },
+    "salinity (psu)": {
+      "minimum": "0.008",
+      "maximum": "19.1807"
+    },
+    "density (gr/cm3)": {
+      "minimum": "-1.2542",
+      "maximum": "14.5993"
+    },
+    "oxygen (mg/l)": {
+      "minimum": "6.966",
+      "maximum": "17.553"
+    },
+    "oxygen (%)": {
+      "minimum": "5.28",
+      "maximum": "209.24"
+    },
+    "conductivity (ohm-1)": {
+      "minimum": "0.00309",
+      "maximum": "1516.44"
+    },
+    "sound (m/s)": {
+      "minimum": "86.68",
+      "maximum": "1519.05"
+    }
+  }
+}

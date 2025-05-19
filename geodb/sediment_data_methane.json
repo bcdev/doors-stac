@@ -1,0 +1,56 @@
+{
+  "stac_version": "1.0.0",
+  "id": "sediment_data_methane",
+  "title": "Sediment_data_methane",
+  "description": "Sediment_data_methane",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.545283333333334,
+          41.72610377777778,
+          41.73072472222223,
+          43.59621666666667
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "sediment_data_methane.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "41.726104",
+      "maximum": "43.596217"
+    },
+    "longitude": {
+      "minimum": "29.545283",
+      "maximum": "41.730725"
+    },
+    "water depth (m)": {
+      "minimum": "72.0",
+      "maximum": "2123.0"
+    },
+    "sediment depth (cm)": {
+      "minimum": "1.0",
+      "maximum": "380.0"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "stac_version": "1.0.0",
+  "id": "shoreline_sulina_periboina_june_july2024",
+  "title": "shoreline_sulina_periboina_june_july2024",
+  "description": "shoreline_sulina_periboina_june_july2024",
+  "providers": [
+    {
+      "name": "National Institute of Marine Geology and Geoecology of Romania",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          653217.414,
+          4941701.294,
+          711631.71,
+          5003127.983
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "shoreline_sulina_periboina_june_july2024.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "x": {
+      "minimum": "653217.414",
+      "maximum": "711631.71"
+    },
+    "y": {
+      "minimum": "4941701.294",
+      "maximum": "5003127.983"
+    }
+  }
+}

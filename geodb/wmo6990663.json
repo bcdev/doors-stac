@@ -16,8 +16,8 @@
       "bbox": [
         [
           28.71527,
-          42.49559,
-          28.90518,
+          41.76885,
+          30.648,
           42.83466
         ]
       ]
@@ -26,7 +26,7 @@
       "interval": [
         [
           "2024-07-16T08:09:00",
-          "2024-08-18T07:54:00"
+          "2025-01-18T14:30:30"
         ]
       ]
     }
@@ -39,7 +39,7 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
@@ -50,7 +50,7 @@
     },
     "cycle_number": {
       "minimum": "1",
-      "maximum": "4"
+      "maximum": "19"
     },
     "time_qc": {
       "minimum": "1",
@@ -62,14 +62,14 @@
     },
     "pres (decibar)": {
       "minimum": "-0.1",
-      "maximum": "1703.0"
+      "maximum": "2003.0"
     },
     "pres_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "psal (psu)": {
-      "minimum": "18.539",
+      "minimum": "17.96",
       "maximum": "22.327"
     },
     "psal_qc": {
@@ -85,8 +85,8 @@
       "maximum": "3"
     },
     "doxy (micromole/kg)": {
-      "minimum": "-1164.1553",
-      "maximum": "2231.8674"
+      "minimum": "-17699.156",
+      "maximum": "3010.1802"
     }
   }
 }

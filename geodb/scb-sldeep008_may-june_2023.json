@@ -1,0 +1,160 @@
+{
+  "stac_version": "1.0.0",
+  "id": "scb-sldeep008_may-june_2023",
+  "title": "SCB-SLDEEP008_May-June_2023",
+  "description": "SCB-SLDEEP008_May-June_2023",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          30.08972245637092,
+          43.46300571928069,
+          30.891302517676984,
+          43.81572387641715
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-06T14:14:31",
+          "2023-06-17T07:31:30"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "scb-sldeep008_may-june_2023.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.46300571928069",
+      "maximum": "43.81572387641715"
+    },
+    "longitude": {
+      "minimum": "30.08972245637092",
+      "maximum": "30.891302517676984"
+    },
+    "depth (m)": {
+      "minimum": "0.0",
+      "maximum": "953.1608482662976"
+    },
+    "pressure (decibar)": {
+      "minimum": "-0.025274254193169823",
+      "maximum": "976.6933895606521"
+    },
+    "density (kg/m3)": {
+      "minimum": "1011.774562806047",
+      "maximum": "1021.6640646844113"
+    },
+    "conductivity (s/m)": {
+      "minimum": "2.05051",
+      "maximum": "2.81997"
+    },
+    "depth_ctd (m)": {
+      "minimum": "-0.025072505965820086",
+      "maximum": "966.6175510271776"
+    },
+    "salinity (psu)": {
+      "minimum": "18.210129066707207",
+      "maximum": "22.2908879672844"
+    },
+    "temperature (\u00b0c)": {
+      "minimum": "8.2818",
+      "maximum": "21.9113"
+    },
+    "temperature_oxygen (\u00b0c)": {
+      "minimum": "8.456",
+      "maximum": "21.952"
+    },
+    "oxygen_concentration (micromole/kg)": {
+      "minimum": "-0.798",
+      "maximum": "294.832"
+    },
+    "oxygen_saturation (%)": {
+      "minimum": "-0.276",
+      "maximum": "113.607"
+    },
+    "temperature_par (\u00b0c)": {
+      "minimum": "10.67",
+      "maximum": "20.62"
+    },
+    "par_radiation (micromol/m2/s)": {
+      "minimum": "-4.801748999999999e-05",
+      "maximum": "0.8458190879999999"
+    },
+    "backscatter_700 (m-1)": {
+      "minimum": "8.5974e-05",
+      "maximum": "0.00835176"
+    },
+    "chlorophyll (mg/m3)": {
+      "minimum": "-0.658",
+      "maximum": "2.674"
+    },
+    "cdom (ppb)": {
+      "minimum": "-0.2574",
+      "maximum": "3.9468"
+    },
+    "profile_direction": {
+      "minimum": "-1",
+      "maximum": "1"
+    },
+    "profile_index": {
+      "minimum": "14.5",
+      "maximum": "1333.5"
+    },
+    "roll": {
+      "minimum": "0.0471239",
+      "maximum": "0.2038283851607916"
+    },
+    "distance_over_ground (m)": {
+      "minimum": "0.020492237033099495",
+      "maximum": "723.1017758146496"
+    },
+    "heading": {
+      "minimum": "0.0",
+      "maximum": "6.28144"
+    },
+    "pitch": {
+      "minimum": "-0.693927182891588",
+      "maximum": "0.7325171013407471"
+    },
+    "transect_index": {
+      "minimum": "1",
+      "maximum": "16"
+    },
+    "water_velocity_eastward (m/s)": {
+      "minimum": "-0.0951423",
+      "maximum": "0.0838027"
+    },
+    "water_velocity_northward (m/s)": {
+      "minimum": "-0.192295",
+      "maximum": "-0.0247088"
+    },
+    "waypoint_latitude": {
+      "minimum": "43.487536667868504",
+      "maximum": "43.789849999999994"
+    },
+    "waypoint_longitude": {
+      "minimum": "30.15918333333333",
+      "maximum": "30.90275"
+    }
+  }
+}

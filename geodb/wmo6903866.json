@@ -15,10 +15,10 @@
     "spatial": {
       "bbox": [
         [
-          28.720965,
-          41.53857166666667,
-          37.977338333333336,
-          43.77039166666667
+          28.72096,
+          41.53857,
+          37.97734,
+          43.77326
         ]
       ]
     },
@@ -26,7 +26,7 @@
       "interval": [
         [
           "2020-11-22T22:15:00",
-          "2023-06-05T20:50:30"
+          "2024-08-19T11:52:30"
         ]
       ]
     }
@@ -39,54 +39,58 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
   "summaries": {
+    "platform_number": {
+      "minimum": "6903866",
+      "maximum": "6903866"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "225"
+    },
     "time_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "latitude": {
-      "minimum": "41.5385716666667",
-      "maximum": "43.7703916666667"
+      "minimum": "41.53857",
+      "maximum": "43.77326"
     },
     "longitude": {
-      "minimum": "28.720965",
-      "maximum": "37.9773383333333"
+      "minimum": "28.72096",
+      "maximum": "37.97734"
     },
     "position_qc": {
       "minimum": "1",
       "maximum": "1"
     },
-    "cycle_number": {
-      "minimum": "1",
-      "maximum": "180"
-    },
     "pres (decibar)": {
-      "minimum": "2.1",
-      "maximum": "1507.7"
+      "minimum": "3.7",
+      "maximum": "1490.6"
     },
     "pres_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "psal (psu)": {
-      "minimum": "17.81",
-      "maximum": "22.32"
+      "minimum": "18.101",
+      "maximum": "22.31"
     },
     "psal_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "temp (\u00b0c)": {
-      "minimum": "7.792",
-      "maximum": "28.297"
+      "minimum": "7.802",
+      "maximum": "27.979"
     },
     "temp_qc": {
       "minimum": "1",
-      "maximum": "1"
+      "maximum": "3"
     }
   }
 }

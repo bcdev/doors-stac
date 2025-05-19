@@ -17,7 +17,7 @@
         [
           28.86247,
           41.62199,
-          37.85376,
+          38.25796,
           42.94869
         ]
       ]
@@ -26,7 +26,7 @@
       "interval": [
         [
           "2022-11-03T06:10:00",
-          "2024-01-28T06:58:00"
+          "2024-08-19T10:56:00"
         ]
       ]
     }
@@ -39,7 +39,7 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
@@ -50,7 +50,7 @@
     },
     "cycle_number": {
       "minimum": "1",
-      "maximum": "45"
+      "maximum": "65"
     },
     "time_qc": {
       "minimum": "1",
@@ -62,15 +62,15 @@
     },
     "longitude": {
       "minimum": "28.86247",
-      "maximum": "37.85376"
+      "maximum": "38.25796"
     },
     "position_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "pres (decibar)": {
-      "minimum": "-0.1",
-      "maximum": "2031.2"
+      "minimum": "-0.5",
+      "maximum": "2032.8"
     },
     "pres_qc": {
       "minimum": "1",
@@ -93,7 +93,7 @@
       "maximum": "4"
     },
     "doxy (micromole/kg)": {
-      "minimum": "-0.7888",
+      "minimum": "-238.71432",
       "maximum": "308.85266"
     }
   }

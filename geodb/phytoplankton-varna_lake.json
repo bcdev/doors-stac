@@ -1,0 +1,68 @@
+{
+  "stac_version": "1.0.0",
+  "id": "phytoplankton-varna_lake",
+  "title": "Phytoplankton-Varna_Lake",
+  "description": "Phytoplankton-Varna_Lake",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.856289,
+          43.191604,
+          27.856289,
+          43.191604
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-09-24T13:15:00",
+          "2024-09-30T07:45:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "phytoplankton-varna_lake.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.191604",
+      "maximum": "43.191604"
+    },
+    "longitude": {
+      "minimum": "27.856289",
+      "maximum": "27.856289"
+    },
+    "depth (m)": {
+      "minimum": "0.5",
+      "maximum": "1.0"
+    },
+    "phytoplankton abundance (cells/l)": {
+      "minimum": "54.05",
+      "maximum": "1437500.0"
+    },
+    "phytoplankton biomass (mg/m3)": {
+      "minimum": "0.0",
+      "maximum": "325.8292860025953"
+    }
+  }
+}

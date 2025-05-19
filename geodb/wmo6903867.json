@@ -39,7 +39,7 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
@@ -69,28 +69,28 @@
       "maximum": "1"
     },
     "pres (decibar)": {
-      "minimum": "2.1",
-      "maximum": "1527.9"
+      "minimum": "3.3",
+      "maximum": "1488.1"
     },
     "pres_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "psal (psu)": {
-      "minimum": "16.958",
-      "maximum": "22.321"
+      "minimum": "18.152",
+      "maximum": "22.319"
     },
     "psal_qc": {
       "minimum": "1",
-      "maximum": "4"
+      "maximum": "1"
     },
     "temp (\u00b0c)": {
-      "minimum": "7.307",
-      "maximum": "27.98"
+      "minimum": "7.314",
+      "maximum": "27.306"
     },
     "temp_qc": {
       "minimum": "1",
-      "maximum": "4"
+      "maximum": "1"
     }
   }
 }

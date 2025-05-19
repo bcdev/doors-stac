@@ -1,0 +1,96 @@
+{
+  "stac_version": "1.0.0",
+  "id": "euxroob02",
+  "title": "EuxRoOB02",
+  "description": "EuxRoOB02",
+  "providers": [
+    {
+      "name": "National Institute of Marine Geology and Geoecology of Romania",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          30.390831,
+          44.31767,
+          30.390831,
+          44.31767
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-10T03:00:00",
+          "2024-12-16T10:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "euxroob02.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "srb latitude": {
+      "minimum": "44.31767",
+      "maximum": "44.31767"
+    },
+    "srb longitude": {
+      "minimum": "30.390831",
+      "maximum": "30.390831"
+    },
+    "sb air pressure [mbar]": {
+      "minimum": "1013.8",
+      "maximum": "1037.3"
+    },
+    "sb air temperature [\u00b0c]": {
+      "minimum": "3.8",
+      "maximum": "14.2"
+    },
+    "sb water conduct. [ms/cm]": {
+      "minimum": "22.76",
+      "maximum": "23399.0"
+    },
+    "sb wind average direction [\u00b0n]": {
+      "minimum": "0.3",
+      "maximum": "359.8"
+    },
+    "sb wind average speed [m/s]": {
+      "minimum": "0.9",
+      "maximum": "14.7"
+    },
+    "sb wind gust direction [\u00b0n]": {
+      "minimum": "1.1",
+      "maximum": "358.6"
+    },
+    "sb wind gust speed [m/s]": {
+      "minimum": "2.1",
+      "maximum": "19.5"
+    },
+    "sb current xy dir [\u00b0n]": {
+      "minimum": "0.0",
+      "maximum": "357.4"
+    },
+    "sb current xy speed [cm/s]": {
+      "minimum": "1.0",
+      "maximum": "18.6"
+    },
+    "sb current z speed [cm/s]": {
+      "minimum": "0.0",
+      "maximum": "6.8"
+    }
+  }
+}

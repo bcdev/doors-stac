@@ -1,0 +1,132 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo6903240",
+  "title": "WMO6903240",
+  "description": "WMO6903240",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.424916666666668,
+          41.432755,
+          41.09676,
+          44.139225
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-03-29T07:10:00",
+          "2022-07-13T04:58:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo6903240.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "wmocatalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "platform_number": {
+      "minimum": "6903240",
+      "maximum": "6903240"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "324"
+    },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres (decibar)": {
+      "minimum": "-0.51",
+      "maximum": "1003.78"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal (psu)": {
+      "minimum": "0.671",
+      "maximum": "22.478"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "7.419",
+      "maximum": "28.728636"
+    },
+    "bbp700 (m-1)": {
+      "minimum": "0.00024",
+      "maximum": "0.04513"
+    },
+    "bbp700_adjusted": {
+      "minimum": "0.00024",
+      "maximum": "0.04513"
+    },
+    "cdom (ppb)": {
+      "minimum": "0.2733",
+      "maximum": "9.36565"
+    },
+    "bisulfide (micromole/kg)": {
+      "minimum": "-2.46584",
+      "maximum": "271.92484"
+    },
+    "doxy (micromole/kg)": {
+      "minimum": "0.56644",
+      "maximum": "321.20996"
+    },
+    "doxy_adjusted (micromole/kg)": {
+      "minimum": "0.60309",
+      "maximum": "341.9858"
+    },
+    "doxy_adjusted_error (micromole/kg)": {
+      "minimum": "7.92251",
+      "maximum": "15.38434"
+    },
+    "chla (mg/m3)": {
+      "minimum": "0.073",
+      "maximum": "5.99111"
+    },
+    "chla_adjusted": {
+      "minimum": "-0.0146",
+      "maximum": "2.94446"
+    },
+    "downwelling_par (micromolequanta/m^2/sec)": {
+      "minimum": "0.19363",
+      "maximum": "1538.3704"
+    },
+    "down_irradiance380 (w/m^2/nm)": {
+      "minimum": "0.0",
+      "maximum": "0.48061"
+    },
+    "down_irradiance412 (w/m^2/nm)": {
+      "minimum": "0.00019",
+      "maximum": "0.90812"
+    },
+    "down_irradiance490 (w/m^2/nm)": {
+      "minimum": "2e-05",
+      "maximum": "1.38824"
+    }
+  }
+}

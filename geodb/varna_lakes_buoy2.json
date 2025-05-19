@@ -1,0 +1,92 @@
+{
+  "stac_version": "1.0.0",
+  "id": "varna_lakes_buoy2",
+  "title": "Varna_Lakes_Buoy2",
+  "description": "Varna_Lakes_Buoy2",
+  "providers": [
+    {
+      "name": "GeoMarine",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          27.6867,
+          43.1952,
+          27.68717,
+          43.1952
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-06-29T07:40:00",
+          "2023-08-09T05:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "varna_lakes_buoy2.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.1952",
+      "maximum": "43.1952"
+    },
+    "longitude": {
+      "minimum": "27.6867",
+      "maximum": "27.68717"
+    },
+    "temperature [\u00b0c]": {
+      "minimum": "4.88",
+      "maximum": "28.58"
+    },
+    "salinity [psu]": {
+      "minimum": "6.461",
+      "maximum": "18.6656364375763"
+    },
+    "oxygen [%]": {
+      "minimum": "0.0",
+      "maximum": "300.94"
+    },
+    "oxygen [mg/l]": {
+      "minimum": "0.0",
+      "maximum": "24.92"
+    },
+    "turbidity [fnu]": {
+      "minimum": "0.84",
+      "maximum": "1000.0"
+    },
+    "fluorescence [\u03bcg/l]": {
+      "minimum": "0.0",
+      "maximum": "151.27"
+    },
+    "bga [pct fs]": {
+      "minimum": "1.96",
+      "maximum": "157.17"
+    },
+    "depth [m]": {
+      "minimum": "11",
+      "maximum": "11"
+    },
+    "horizon [m]": {
+      "minimum": "1.5",
+      "maximum": "1.5"
+    }
+  }
+}

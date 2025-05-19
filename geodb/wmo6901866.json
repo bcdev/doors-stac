@@ -1,0 +1,192 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo6901866",
+  "title": "WMO6901866",
+  "description": "WMO6901866",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.42988,
+          41.52259,
+          39.59259,
+          44.51738
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2015-05-27T22:53:00",
+          "2019-07-07T10:03:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo6901866.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "wmocatalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "platform_number": {
+      "minimum": "6901866",
+      "maximum": "6901866"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "302"
+    },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres (decibar)": {
+      "minimum": "-0.22",
+      "maximum": "989.42"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres_adjusted (decibar)": {
+      "minimum": "-0.22001",
+      "maximum": "989.42"
+    },
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
+    },
+    "psal (psu)": {
+      "minimum": "17.2742",
+      "maximum": "22.276"
+    },
+    "psal_adjusted (psu)": {
+      "minimum": "17.4806",
+      "maximum": "22.276"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.005",
+      "maximum": "0.005"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "6.7386",
+      "maximum": "29.069"
+    },
+    "temp_adjusted (\u00b0c)": {
+      "minimum": "6.7386",
+      "maximum": "28.848"
+    },
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
+    },
+    "bbp700 (m-1)": {
+      "minimum": "0.0003",
+      "maximum": "0.01176"
+    },
+    "bbp700_adjusted": {
+      "minimum": "0.0003",
+      "maximum": "0.01176"
+    },
+    "cdom (ppb)": {
+      "minimum": "1.47137",
+      "maximum": "13.6655"
+    },
+    "bisulfide (micromole/kg)": {
+      "minimum": "-1.16066",
+      "maximum": "278.22162"
+    },
+    "doxy (micromole/kg)": {
+      "minimum": "0.20598",
+      "maximum": "298.19702"
+    },
+    "doxy_adjusted (micromole/kg)": {
+      "minimum": "0.22598",
+      "maximum": "327.146"
+    },
+    "doxy_adjusted_error (micromole/kg)": {
+      "minimum": "10.95844",
+      "maximum": "15.77423"
+    },
+    "chla (mg/m3)": {
+      "minimum": "0.07297",
+      "maximum": "2.0986"
+    },
+    "chla_adjusted": {
+      "minimum": "-0.00439",
+      "maximum": "1.00842"
+    },
+    "nitrate (micromole/kg)": {
+      "minimum": "-14.25767",
+      "maximum": "6.69832"
+    },
+    "downwelling_par (micromolequanta/m^2/sec)": {
+      "minimum": "0.04964",
+      "maximum": "1453.4232"
+    },
+    "downwelling_par_adjusted": {
+      "minimum": "-0.02813",
+      "maximum": "1453.3698"
+    },
+    "downwelling_par_adjusted_error": {
+      "minimum": "0.03",
+      "maximum": "72.66849"
+    },
+    "down_irradiance380 (w/m^2/nm)": {
+      "minimum": "-5e-05",
+      "maximum": "0.54148"
+    },
+    "down_irradiance380_adjusted": {
+      "minimum": "-2e-05",
+      "maximum": "0.54149"
+    },
+    "down_irradiance380_adjusted_error": {
+      "minimum": "2e-05",
+      "maximum": "0.01083"
+    },
+    "down_irradiance412 (w/m^2/nm)": {
+      "minimum": "0.0001",
+      "maximum": "1.03079"
+    },
+    "down_irradiance412_adjusted": {
+      "minimum": "-2e-05",
+      "maximum": "1.03073"
+    },
+    "down_irradiance412_adjusted_error": {
+      "minimum": "2e-05",
+      "maximum": "0.02061"
+    },
+    "down_irradiance490 (w/m^2/nm)": {
+      "minimum": "0.0",
+      "maximum": "1.54298"
+    },
+    "down_irradiance490_adjusted": {
+      "minimum": "-2e-05",
+      "maximum": "1.54292"
+    },
+    "down_irradiance490_adjusted_error": {
+      "minimum": "2e-05",
+      "maximum": "0.03086"
+    }
+  }
+}

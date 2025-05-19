@@ -1,0 +1,76 @@
+{
+  "stac_version": "1.0.0",
+  "id": "doors2_data-dic_carbonisotopes_dissolvedsilicon",
+  "title": "DOORS2_data-DIC_CarbonIsotopes_DissolvedSilicon",
+  "description": "DOORS2_data-DIC_CarbonIsotopes_DissolvedSilicon",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.686117,
+          43.13915,
+          30.519933,
+          43.672467
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-09-12T15:37:00",
+          "2023-09-19T08:17:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "doors2_data-dic_carbonisotopes_dissolvedsilicon.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.13915",
+      "maximum": "43.672467"
+    },
+    "longitude": {
+      "minimum": "28.686117",
+      "maximum": "30.519933"
+    },
+    "water depth (m)": {
+      "minimum": "150",
+      "maximum": "1153"
+    },
+    "sediment depth (mbsf)": {
+      "minimum": "0.05",
+      "maximum": "3.8"
+    },
+    "dissolved inorganic carbon (mm)": {
+      "minimum": "2.2860264118231295",
+      "maximum": "5.9848760137858745"
+    },
+    "\u03b413c (pdb)": {
+      "minimum": "-47.87621690987465",
+      "maximum": "-13.407066958391843"
+    },
+    "dissolved si (\u03bc\u03bc)": {
+      "minimum": "112.16666666666669",
+      "maximum": "688.875"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "stac_version": "1.0.0",
+  "id": "zelenka_2022-2023_stable_carbon_isotope_pore_waters",
+  "title": "Zelenka_2022-2023_Stable_Carbon_isotope_pore_waters",
+  "description": "Zelenka_2022-2023_Stable_Carbon_isotope_pore_waters",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.42935,
+          43.38274,
+          28.429475,
+          43.382826
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-09-13T08:30:00",
+          "2023-03-29T08:30:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "zelenka_2022-2023_stable_carbon_isotope_pore_waters.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.38274",
+      "maximum": "43.382826"
+    },
+    "longitude": {
+      "minimum": "28.42935",
+      "maximum": "28.429475"
+    },
+    "water depth (m)": {
+      "minimum": "6.8",
+      "maximum": "7.5"
+    },
+    "water temperature (\u00b0c)": {
+      "minimum": "7.5",
+      "maximum": "22.0"
+    },
+    "sediment depth (mbsf)": {
+      "minimum": "0.0",
+      "maximum": "0.235"
+    },
+    "dissolved inorganic carbon (mm)": {
+      "minimum": "2.3071460487807225",
+      "maximum": "3.574874737043047"
+    },
+    "\u03b413c (pdb)": {
+      "minimum": "-20.58686731094049",
+      "maximum": "-2.5388621635337003"
+    }
+  }
+}

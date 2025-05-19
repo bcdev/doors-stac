@@ -1,0 +1,100 @@
+{
+  "stac_version": "1.0.0",
+  "id": "euxroob03",
+  "title": "EuxRoOB03",
+  "description": "EuxRoOB03",
+  "providers": [
+    {
+      "name": "National Institute of Marine Geology and Geoecology of Romania",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.883331,
+          43.9455,
+          29.883331,
+          43.9455
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-12-10T01:00:00",
+          "2024-12-16T10:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "euxroob03.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "srb latitude": {
+      "minimum": "43.9455",
+      "maximum": "43.9455"
+    },
+    "srb longitude": {
+      "minimum": "29.883331",
+      "maximum": "29.883331"
+    },
+    "sb air pressure [mbar]": {
+      "minimum": "1013.3",
+      "maximum": "1036.7"
+    },
+    "sb air temperature [\u00b0c]": {
+      "minimum": "4.1",
+      "maximum": "13.7"
+    },
+    "sb water conduct. [ms/cm]": {
+      "minimum": "22.63",
+      "maximum": "23261.0"
+    },
+    "sb water temp. [\u00b0c]": {
+      "minimum": "11.7879",
+      "maximum": "13143.0"
+    },
+    "sb wind average direction [\u00b0n]": {
+      "minimum": "8.6",
+      "maximum": "348.9"
+    },
+    "sb wind average speed [m/s]": {
+      "minimum": "2.1",
+      "maximum": "13.4"
+    },
+    "sb wind gust direction [\u00b0n]": {
+      "minimum": "145.2",
+      "maximum": "353.6"
+    },
+    "sb wind gust speed [m/s]": {
+      "minimum": "3.0",
+      "maximum": "17.3"
+    },
+    "sb current xy dir [\u00b0n]": {
+      "minimum": "58.8",
+      "maximum": "348.4"
+    },
+    "sb current xy speed [cm/s]": {
+      "minimum": "1.6",
+      "maximum": "49.7"
+    },
+    "sb current z speed [cm/s]": {
+      "minimum": "0.0",
+      "maximum": "3.7"
+    }
+  }
+}

@@ -15,7 +15,7 @@
     "spatial": {
       "bbox": [
         [
-          29.00295,
+          29.00387,
           41.40882,
           36.63112,
           42.33315
@@ -25,7 +25,7 @@
     "temporal": {
       "interval": [
         [
-          "2013-12-15T11:29:00",
+          "2013-12-15T12:12:00",
           "2014-10-25T09:03:00"
         ]
       ]
@@ -39,7 +39,7 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
@@ -61,16 +61,16 @@
       "maximum": "1"
     },
     "pres (decibar)": {
-      "minimum": "-0.08",
-      "maximum": "1020.8"
+      "minimum": "0.5",
+      "maximum": "995.54"
     },
     "pres_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "pres_adjusted (decibar)": {
-      "minimum": "-0.08",
-      "maximum": "1020.8"
+      "minimum": "0.5",
+      "maximum": "995.54"
     },
     "pres_adjusted_qc": {
       "minimum": "1",
@@ -81,23 +81,23 @@
       "maximum": "2.4"
     },
     "psal (psu)": {
-      "minimum": "16.907",
-      "maximum": "22.297"
+      "minimum": "17.06825",
+      "maximum": "22.287"
     },
     "psal_adjusted (psu)": {
       "minimum": "17.068",
-      "maximum": "22.297"
+      "maximum": "22.287"
     },
     "psal_adjusted_error (psu)": {
       "minimum": "0.01",
       "maximum": "0.01"
     },
     "temp (\u00b0c)": {
-      "minimum": "7.17",
-      "maximum": "27.637"
+      "minimum": "7.2764",
+      "maximum": "27.493"
     },
     "temp_adjusted (\u00b0c)": {
-      "minimum": "7.217",
+      "minimum": "7.2764",
       "maximum": "27.479"
     },
     "temp_adjusted_error (\u00b0c)": {
@@ -105,56 +105,56 @@
       "maximum": "0.002"
     },
     "bbp532 (m-1)": {
-      "minimum": "0.00037",
-      "maximum": "0.155"
+      "minimum": "0.00048",
+      "maximum": "0.06306"
     },
     "bbp700 (m-1)": {
-      "minimum": "0.00034",
-      "maximum": "0.07639"
+      "minimum": "0.00042",
+      "maximum": "0.0636"
     },
     "bbp700_adjusted": {
-      "minimum": "0.00034",
-      "maximum": "0.07639"
+      "minimum": "0.00042",
+      "maximum": "0.0636"
     },
     "bbp700_adjusted_error": {
-      "minimum": "7e-05",
-      "maximum": "0.01528"
+      "minimum": "8e-05",
+      "maximum": "0.01272"
     },
     "doxy (micromole/kg)": {
-      "minimum": "0.41298",
-      "maximum": "346.65286"
+      "minimum": "0.44117",
+      "maximum": "317.70462"
     },
     "doxy_adjusted (micromole/kg)": {
-      "minimum": "0.43483",
-      "maximum": "364.99426"
+      "minimum": "0.46451",
+      "maximum": "334.51437"
     },
     "doxy_adjusted_error (micromole/kg)": {
-      "minimum": "10.81953",
-      "maximum": "15.83449"
+      "minimum": "11.19013",
+      "maximum": "15.44772"
     },
     "chla (mg/m3)": {
-      "minimum": "0.0242",
-      "maximum": "7.6472"
+      "minimum": "0.0488",
+      "maximum": "6.8849"
     },
     "chla_adjusted": {
-      "minimum": "-0.00605",
-      "maximum": "3.80545"
+      "minimum": "0.00625",
+      "maximum": "3.4243"
     },
     "downwelling_par (micromolequanta/m^2/sec)": {
-      "minimum": "0.12543",
-      "maximum": "1799.2161"
+      "minimum": "0.14593",
+      "maximum": "426.77777"
     },
     "down_irradiance380 (w/m^2/nm)": {
-      "minimum": "8e-05",
-      "maximum": "0.56334"
+      "minimum": "0.00013",
+      "maximum": "0.13892"
     },
     "down_irradiance412 (w/m^2/nm)": {
-      "minimum": "-1e-05",
-      "maximum": "1.12473"
+      "minimum": "0.0",
+      "maximum": "0.30797"
     },
     "down_irradiance490 (w/m^2/nm)": {
-      "minimum": "0.00015",
-      "maximum": "1.5441"
+      "minimum": "0.00017",
+      "maximum": "0.62183"
     }
   }
 }

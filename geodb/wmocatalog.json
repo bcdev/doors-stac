@@ -1,0 +1,287 @@
+{
+  "stac_version": "1.0.0",
+  "id": "doors-wmo-catalog",
+  "title": "WMO",
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmocatalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "root",
+      "href": "catalog.json",
+      "type": "application/json"
+    },  
+    {
+      "rel": "child",
+      "href": "wmo1902575.json",
+      "type": "application/json",
+      "title": "WMO1902575"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3901852.json",
+      "type": "application/json",
+      "title": "WMO3901852"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3901854.json",
+      "type": "application/json",
+      "title": "WMO3901854"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3901855.json",
+      "type": "application/json",
+      "title": "WMO3901855"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3902004.json",
+      "type": "application/json",
+      "title": "WMO3902004"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3902005.json",
+      "type": "application/json",
+      "title": "WMO3902005"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3902006.json",
+      "type": "application/json",
+      "title": "WMO3902006"
+    },
+    {
+      "rel": "child",
+      "href": "wmo3902461.json",
+      "type": "application/json",
+      "title": "WMO3902461"
+    },
+    {
+      "rel": "child",
+      "href": "wmo4903711.json",
+      "type": "application/json",
+      "title": "WMO4903711"
+    },
+    {
+      "rel": "child",
+      "href": "wmo5906866.json",
+      "type": "application/json",
+      "title": "WMO5906866"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6900803.json",
+      "type": "application/json",
+      "title": "WMO6900803"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6900804.json",
+      "type": "application/json",
+      "title": "WMO6900804"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6900805.json",
+      "type": "application/json",
+      "title": "WMO6900805"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6900807.json",
+      "type": "application/json",
+      "title": "WMO6900807"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901828.json",
+      "type": "application/json",
+      "title": "WMO6901828"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901831.json",
+      "type": "application/json",
+      "title": "WMO6901831"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901832.json",
+      "type": "application/json",
+      "title": "WMO6901832"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901833.json",
+      "type": "application/json",
+      "title": "WMO6901833"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901834.json",
+      "type": "application/json",
+      "title": "WMO6901834"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901866.json",
+      "type": "application/json",
+      "title": "WMO6901866"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901895.json",
+      "type": "application/json",
+      "title": "WMO6901895"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901896.json",
+      "type": "application/json",
+      "title": "WMO6901896"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901899.json",
+      "type": "application/json",
+      "title": "WMO6901899"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901900.json",
+      "type": "application/json",
+      "title": "WMO6901900"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901959.json",
+      "type": "application/json",
+      "title": "WMO6901959"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901961.json",
+      "type": "application/json",
+      "title": "WMO6901961"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6901962.json",
+      "type": "application/json",
+      "title": "WMO6901962"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903228.json",
+      "type": "application/json",
+      "title": "WMO6903228"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903240.json",
+      "type": "application/json",
+      "title": "WMO6903240"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903271.json",
+      "type": "application/json",
+      "title": "WMO6903271"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903766.json",
+      "type": "application/json",
+      "title": "WMO6903766"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903782.json",
+      "type": "application/json",
+      "title": "WMO6903782"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903865.json",
+      "type": "application/json",
+      "title": "WMO6903865"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903866.json",
+      "type": "application/json",
+      "title": "WMO6903866"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6903867.json",
+      "type": "application/json",
+      "title": "WMO6903867"
+    },
+    {
+      "rel": "child",
+      "href": "wmo6990663.json",
+      "type": "application/json",
+      "title": "WMO6990663"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900590.json",
+      "type": "application/json",
+      "title": "WMO7900590"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900591.json",
+      "type": "application/json",
+      "title": "WMO7900591"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900592.json",
+      "type": "application/json",
+      "title": "WMO7900592"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900593.json",
+      "type": "application/json",
+      "title": "WMO7900593"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900594.json",
+      "type": "application/json",
+      "title": "WMO7900594"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900595.json",
+      "type": "application/json",
+      "title": "WMO7900595"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7900596.json",
+      "type": "application/json",
+      "title": "WMO7900596"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7901065.json",
+      "type": "application/json",
+      "title": "WMO7901065"
+    },
+    {
+      "rel": "child",
+      "href": "wmo7902191.json",
+      "type": "application/json",
+      "title": "WMO7902191"
+    }
+  ]
+}

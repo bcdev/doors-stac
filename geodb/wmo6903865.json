@@ -15,9 +15,9 @@
     "spatial": {
       "bbox": [
         [
-          27.957989999999995,
-          41.18164978002645,
-          29.739011869775684,
+          27.95799,
+          41.18165,
+          29.739012,
           43.13941
         ]
       ]
@@ -39,30 +39,34 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
   "summaries": {
+    "platform_number": {
+      "minimum": "6903865",
+      "maximum": "6903865"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "94"
+    },
     "time_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "latitude": {
-      "minimum": "41.1816497800264",
+      "minimum": "41.18165",
       "maximum": "43.13941"
     },
     "longitude": {
       "minimum": "27.95799",
-      "maximum": "29.7390118697757"
+      "maximum": "29.739012"
     },
     "position_qc": {
       "minimum": "1",
       "maximum": "1"
-    },
-    "cycle_number": {
-      "minimum": "1",
-      "maximum": "94"
     },
     "pres (decibar)": {
       "minimum": "2.1",

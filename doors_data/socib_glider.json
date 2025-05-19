@@ -1,0 +1,80 @@
+{
+  "stac_version": "1.0.0",
+  "id": "socib_glider",
+  "title": "SOCIB Glider",
+  "description": "",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.633,
+          43.65,
+          30.833,
+          44.167
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-01T11:31:00",
+          "2023-05-19T08:15:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "aerosol_optical_thickness.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.65",
+      "maximum": "44.167"
+    },
+    "longitude": {
+      "minimum": "28.633",
+      "maximum": "30.833"
+    },
+    "ap [hpa]": {
+      "minimum": "1009.0",
+      "maximum": "1024.0"
+    },
+    "aot440": {
+      "minimum": "0.1335",
+      "maximum": "0.3862"
+    },
+    "aot500": {
+      "minimum": "0.14",
+      "maximum": "0.3662"
+    },
+    "aot675": {
+      "minimum": "0.108666666666667",
+      "maximum": "0.3472"
+    },
+    "aot870": {
+      "minimum": "0.0374",
+      "maximum": "0.27"
+    },
+    "aot936": {
+      "minimum": "0.034",
+      "maximum": "0.2458"
+    }
+  }
+}

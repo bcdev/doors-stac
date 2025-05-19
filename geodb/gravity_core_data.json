@@ -1,0 +1,52 @@
+{
+  "stac_version": "1.0.0",
+  "id": "gravity_core_data",
+  "title": "Gravity_core_data",
+  "description": "Gravity_core_data",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.686,
+          43.139,
+          30.519833333333334,
+          43.672333333333334
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "gravity_core_data.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.139",
+      "maximum": "43.672333333333334"
+    },
+    "longitude": {
+      "minimum": "28.686",
+      "maximum": "30.519833333333334"
+    },
+    "water depth (m)": {
+      "minimum": "150",
+      "maximum": "1153"
+    }
+  }
+}

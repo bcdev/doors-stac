@@ -16,8 +16,8 @@
       "bbox": [
         [
           28.67946,
-          41.33399,
-          30.82814,
+          41.2869,
+          35.94286,
           43.86859
         ]
       ]
@@ -26,7 +26,7 @@
       "interval": [
         [
           "2023-05-11T12:17:00",
-          "2024-04-11T11:50:00"
+          "2025-04-16T10:29:00"
         ]
       ]
     }
@@ -39,7 +39,7 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
@@ -50,7 +50,7 @@
     },
     "cycle_number": {
       "minimum": "1",
-      "maximum": "35"
+      "maximum": "72"
     },
     "time_qc": {
       "minimum": "1",

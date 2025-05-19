@@ -1,0 +1,68 @@
+{
+  "stac_version": "1.0.0",
+  "id": "s25_doors_06.05_ok",
+  "title": "S25_doors_06.05_ok",
+  "description": "S25_doors_06.05_ok",
+  "providers": [
+    {
+      "name": "NIMRD",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          30.132002,
+          43.79989,
+          30.132002,
+          43.79989
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-06T11:51:53",
+          "2023-05-06T11:51:53"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "s25_doors_06.05_ok.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "depth (m)": {
+      "minimum": "3.09",
+      "maximum": "47.09"
+    },
+    "u(mm/s)": {
+      "minimum": "-194.3823529",
+      "maximum": "366.2727273"
+    },
+    "v(mm/s)": {
+      "minimum": "-270.5294118",
+      "maximum": "455.5"
+    },
+    "latitude": {
+      "minimum": "43.79989",
+      "maximum": "43.79989"
+    },
+    "longitude": {
+      "minimum": "30.132002",
+      "maximum": "30.132002"
+    }
+  }
+}

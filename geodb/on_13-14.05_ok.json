@@ -1,0 +1,400 @@
+{
+  "stac_version": "1.0.0",
+  "id": "on_13-14.05_ok",
+  "title": "On_13-14.05_ok",
+  "description": "On_13-14.05_ok",
+  "providers": [
+    {
+      "name": "NIMRD",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          30.254004,
+          44.731598,
+          30.254004,
+          44.731598
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-05T21:42:38",
+          "2023-05-06T23:57:38"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "on_13-14.05_ok.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "44.731598",
+      "maximum": "44.731598"
+    },
+    "longitude": {
+      "minimum": "30.254004",
+      "maximum": "30.254004"
+    },
+    "u_2.1": {
+      "minimum": "3.0",
+      "maximum": "218.0"
+    },
+    "v_2.1": {
+      "minimum": "-20.0",
+      "maximum": "186.0"
+    },
+    "u_3.1": {
+      "minimum": "-42.0",
+      "maximum": "236.0"
+    },
+    "v_3.1": {
+      "minimum": "-47.0",
+      "maximum": "240.0"
+    },
+    "u_4.1": {
+      "minimum": "-48.0",
+      "maximum": "227.0"
+    },
+    "v_4.1": {
+      "minimum": "-21.0",
+      "maximum": "254.0"
+    },
+    "u_5.1": {
+      "minimum": "-44.0",
+      "maximum": "214.0"
+    },
+    "v_5.1": {
+      "minimum": "-21.0",
+      "maximum": "308.0"
+    },
+    "u_6.1": {
+      "minimum": "-77.0",
+      "maximum": "171.0"
+    },
+    "v_6.1": {
+      "minimum": "-4.0",
+      "maximum": "388.0"
+    },
+    "u_7.1": {
+      "minimum": "-119.0",
+      "maximum": "136.0"
+    },
+    "v_7.1": {
+      "minimum": "67.0",
+      "maximum": "429.0"
+    },
+    "u_8.1": {
+      "minimum": "-142.0",
+      "maximum": "128.0"
+    },
+    "v_8.1": {
+      "minimum": "27.0",
+      "maximum": "437.0"
+    },
+    "u_9.1": {
+      "minimum": "-135.0",
+      "maximum": "135.0"
+    },
+    "v_9.1": {
+      "minimum": "93.0",
+      "maximum": "472.0"
+    },
+    "u_10.1": {
+      "minimum": "-105.0",
+      "maximum": "194.0"
+    },
+    "v_10.1": {
+      "minimum": "112.0",
+      "maximum": "492.0"
+    },
+    "u_11.1": {
+      "minimum": "-184.0",
+      "maximum": "197.0"
+    },
+    "v_11.1": {
+      "minimum": "134.0",
+      "maximum": "470.0"
+    },
+    "u_12.1": {
+      "minimum": "-114.0",
+      "maximum": "205.0"
+    },
+    "v_12.1": {
+      "minimum": "72.0",
+      "maximum": "444.0"
+    },
+    "u_13.1": {
+      "minimum": "-124.0",
+      "maximum": "194.0"
+    },
+    "v_13.1": {
+      "minimum": "126.0",
+      "maximum": "450.0"
+    },
+    "u_14.1": {
+      "minimum": "-149.0",
+      "maximum": "197.0"
+    },
+    "v_14.1": {
+      "minimum": "110.0",
+      "maximum": "426.0"
+    },
+    "u_15.1": {
+      "minimum": "-201.0",
+      "maximum": "199.0"
+    },
+    "v_15.1": {
+      "minimum": "33.0",
+      "maximum": "392.0"
+    },
+    "u_16.1": {
+      "minimum": "-225.0",
+      "maximum": "181.0"
+    },
+    "v_16.1": {
+      "minimum": "-47.0",
+      "maximum": "386.0"
+    },
+    "u_17.1": {
+      "minimum": "-125.0",
+      "maximum": "193.0"
+    },
+    "v_17.1": {
+      "minimum": "35.0",
+      "maximum": "352.0"
+    },
+    "u_18.1": {
+      "minimum": "-192.0",
+      "maximum": "165.0"
+    },
+    "v_18.1": {
+      "minimum": "73.0",
+      "maximum": "336.0"
+    },
+    "u_19.1": {
+      "minimum": "-113.0",
+      "maximum": "127.0"
+    },
+    "v_19.1": {
+      "minimum": "55.0",
+      "maximum": "281.0"
+    },
+    "u_20.1": {
+      "minimum": "-217.0",
+      "maximum": "94.0"
+    },
+    "v_20.1": {
+      "minimum": "7.0",
+      "maximum": "238.0"
+    },
+    "u_21.1": {
+      "minimum": "-205.0",
+      "maximum": "72.0"
+    },
+    "v_21.1": {
+      "minimum": "36.0",
+      "maximum": "246.0"
+    },
+    "u_22.1": {
+      "minimum": "-77.0",
+      "maximum": "82.0"
+    },
+    "v_22.1": {
+      "minimum": "36.0",
+      "maximum": "221.0"
+    },
+    "u_23.1": {
+      "minimum": "-96.0",
+      "maximum": "94.0"
+    },
+    "v_23.1": {
+      "minimum": "-6.0",
+      "maximum": "209.0"
+    },
+    "u_24.1": {
+      "minimum": "-192.0",
+      "maximum": "100.0"
+    },
+    "v_24.1": {
+      "minimum": "34.0",
+      "maximum": "215.0"
+    },
+    "u_25.1": {
+      "minimum": "-105.0",
+      "maximum": "109.0"
+    },
+    "v_25.1": {
+      "minimum": "1.0",
+      "maximum": "216.0"
+    },
+    "u_26.1": {
+      "minimum": "-101.0",
+      "maximum": "119.0"
+    },
+    "v_26.1": {
+      "minimum": "-21.0",
+      "maximum": "196.0"
+    },
+    "u_27.1": {
+      "minimum": "-47.0",
+      "maximum": "112.0"
+    },
+    "v_27.1": {
+      "minimum": "31.0",
+      "maximum": "160.0"
+    },
+    "u_28.1": {
+      "minimum": "-75.0",
+      "maximum": "104.0"
+    },
+    "v_28.1": {
+      "minimum": "1.0",
+      "maximum": "183.0"
+    },
+    "u_29.1": {
+      "minimum": "-231.0",
+      "maximum": "97.0"
+    },
+    "v_29.1": {
+      "minimum": "-59.0",
+      "maximum": "208.0"
+    },
+    "u_30.1": {
+      "minimum": "-149.0",
+      "maximum": "98.0"
+    },
+    "v_30.1": {
+      "minimum": "16.0",
+      "maximum": "191.0"
+    },
+    "u_31.1": {
+      "minimum": "-195.0",
+      "maximum": "83.0"
+    },
+    "v_31.1": {
+      "minimum": "4.0",
+      "maximum": "195.0"
+    },
+    "u_32.1": {
+      "minimum": "-220.0",
+      "maximum": "90.0"
+    },
+    "v_32.1": {
+      "minimum": "-25.0",
+      "maximum": "194.0"
+    },
+    "u_33.1": {
+      "minimum": "-292.0",
+      "maximum": "83.0"
+    },
+    "v_33.1": {
+      "minimum": "-9.0",
+      "maximum": "180.0"
+    },
+    "u_34.1": {
+      "minimum": "-156.0",
+      "maximum": "93.0"
+    },
+    "v_34.1": {
+      "minimum": "19.0",
+      "maximum": "195.0"
+    },
+    "u_35.1": {
+      "minimum": "-122.0",
+      "maximum": "100.0"
+    },
+    "v_35.1": {
+      "minimum": "0.0",
+      "maximum": "201.0"
+    },
+    "u_36.1": {
+      "minimum": "-202.0",
+      "maximum": "94.0"
+    },
+    "v_36.1": {
+      "minimum": "-6.0",
+      "maximum": "176.0"
+    },
+    "u_37.1": {
+      "minimum": "-151.0",
+      "maximum": "105.0"
+    },
+    "v_37.1": {
+      "minimum": "-9.0",
+      "maximum": "180.0"
+    },
+    "u_38.1": {
+      "minimum": "-133.0",
+      "maximum": "84.0"
+    },
+    "v_38.1": {
+      "minimum": "-28.0",
+      "maximum": "192.0"
+    },
+    "u_39.1": {
+      "minimum": "-109.0",
+      "maximum": "72.0"
+    },
+    "v_39.1": {
+      "minimum": "-4.0",
+      "maximum": "149.0"
+    },
+    "u_40.1": {
+      "minimum": "-34.0",
+      "maximum": "40.0"
+    },
+    "v_40.1": {
+      "minimum": "-28.0",
+      "maximum": "66.0"
+    },
+    "u_41.1": {
+      "minimum": "-163.0",
+      "maximum": "53.0"
+    },
+    "v_41.1": {
+      "minimum": "-124.0",
+      "maximum": "106.0"
+    },
+    "u_42.1": {
+      "minimum": "-148.0",
+      "maximum": "31.0"
+    },
+    "v_42.1": {
+      "minimum": "-45.0",
+      "maximum": "79.0"
+    },
+    "u_43.1": {
+      "minimum": "-138.0",
+      "maximum": "64.0"
+    },
+    "v_43.1": {
+      "minimum": "-144.0",
+      "maximum": "102.0"
+    },
+    "u_44.1": {
+      "minimum": "-68.0",
+      "maximum": "368.0"
+    },
+    "v_44.1": {
+      "minimum": "-76.0",
+      "maximum": "127.0"
+    }
+  }
+}

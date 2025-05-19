@@ -1,0 +1,208 @@
+{
+  "stac_version": "1.0.0",
+  "id": "ancora_d7-8_rdi_034",
+  "title": "Ancora_d7-8_RDI_034",
+  "description": "Ancora_d7-8_RDI_034",
+  "providers": [
+    {
+      "name": "NIMRD",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.580517,
+          43.426483,
+          29.580517,
+          43.426483
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-09-17T21:02:59",
+          "2023-09-18T05:47:59"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "ancora_d7-8_rdi_034.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.426483",
+      "maximum": "43.426483"
+    },
+    "longitude": {
+      "minimum": "29.580517",
+      "maximum": "29.580517"
+    },
+    "u_3": {
+      "minimum": "-262",
+      "maximum": "50"
+    },
+    "v_3": {
+      "minimum": "-132",
+      "maximum": "185"
+    },
+    "u_5": {
+      "minimum": "-261",
+      "maximum": "55"
+    },
+    "v_5": {
+      "minimum": "-155",
+      "maximum": "175"
+    },
+    "u_7": {
+      "minimum": "-269",
+      "maximum": "78"
+    },
+    "v_7": {
+      "minimum": "-161",
+      "maximum": "186"
+    },
+    "u_9": {
+      "minimum": "-349",
+      "maximum": "37"
+    },
+    "v_9": {
+      "minimum": "-117",
+      "maximum": "148"
+    },
+    "u_11": {
+      "minimum": "-592",
+      "maximum": "-51"
+    },
+    "v_11": {
+      "minimum": "-38",
+      "maximum": "236"
+    },
+    "u_13": {
+      "minimum": "-295",
+      "maximum": "-29"
+    },
+    "v_13": {
+      "minimum": "-118",
+      "maximum": "174"
+    },
+    "u_15": {
+      "minimum": "-131",
+      "maximum": "66"
+    },
+    "v_15": {
+      "minimum": "-207",
+      "maximum": "155"
+    },
+    "u_17": {
+      "minimum": "-115",
+      "maximum": "57"
+    },
+    "v_17": {
+      "minimum": "-188",
+      "maximum": "101"
+    },
+    "u_19": {
+      "minimum": "-117",
+      "maximum": "23"
+    },
+    "v_19": {
+      "minimum": "-135",
+      "maximum": "76"
+    },
+    "u_21": {
+      "minimum": "-109",
+      "maximum": "45"
+    },
+    "v_21": {
+      "minimum": "-120",
+      "maximum": "69"
+    },
+    "u_23": {
+      "minimum": "-90",
+      "maximum": "47"
+    },
+    "v_23": {
+      "minimum": "-96",
+      "maximum": "78"
+    },
+    "u_25": {
+      "minimum": "-107",
+      "maximum": "36"
+    },
+    "v_25": {
+      "minimum": "-117",
+      "maximum": "69"
+    },
+    "u_27": {
+      "minimum": "-89",
+      "maximum": "11"
+    },
+    "v_27": {
+      "minimum": "-102",
+      "maximum": "67"
+    },
+    "u_29": {
+      "minimum": "-103",
+      "maximum": "5"
+    },
+    "v_29": {
+      "minimum": "-105",
+      "maximum": "70"
+    },
+    "u_31": {
+      "minimum": "-119",
+      "maximum": "32"
+    },
+    "v_31": {
+      "minimum": "-129",
+      "maximum": "85"
+    },
+    "u_33": {
+      "minimum": "-139",
+      "maximum": "40"
+    },
+    "v_33": {
+      "minimum": "-155",
+      "maximum": "106"
+    },
+    "u_35": {
+      "minimum": "-128",
+      "maximum": "25"
+    },
+    "v_35": {
+      "minimum": "-158",
+      "maximum": "111"
+    },
+    "u_37": {
+      "minimum": "-137.0",
+      "maximum": "35.0"
+    },
+    "v_37": {
+      "minimum": "-198.0",
+      "maximum": "143.0"
+    },
+    "u_39": {
+      "minimum": "-157.0",
+      "maximum": "351.0"
+    },
+    "v_39": {
+      "minimum": "-333.0",
+      "maximum": "178.0"
+    }
+  }
+}

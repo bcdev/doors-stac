@@ -1,0 +1,84 @@
+{
+  "stac_version": "1.0.0",
+  "id": "wmo7902191",
+  "title": "WMO7902191",
+  "description": "WMO7902191",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          40.41505,
+          42.1806,
+          41.56888,
+          42.69121
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2024-06-20T08:29:00",
+          "2025-01-22T18:54:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "wmo7902191.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "wmocatalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "platform_number": {
+      "minimum": "7902191",
+      "maximum": "7902191"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "22"
+    },
+    "time_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "position_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "pres (decibar)": {
+      "minimum": "-0.5",
+      "maximum": "1712.0"
+    },
+    "pres_qc": {
+      "minimum": "1",
+      "maximum": "1"
+    },
+    "psal (psu)": {
+      "minimum": "17.108",
+      "maximum": "22.32"
+    },
+    "temp (\u00b0c)": {
+      "minimum": "8.85",
+      "maximum": "28.445"
+    },
+    "doxy (micromole/kg)": {
+      "minimum": "-0.8195",
+      "maximum": "312.29092"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "stac_version": "1.0.0",
+  "id": "zelenka_2022-2023_stable_carbon_isotope_sea_water",
+  "title": "Zelenka_2022-2023_Stable_Carbon_isotope_sea_water",
+  "description": "Zelenka_2022-2023_Stable_Carbon_isotope_sea_water",
+  "providers": [
+    {
+      "name": "Institute of Oceanology - BAS",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.42935,
+          43.38274,
+          28.429479,
+          43.382822
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-09-16T07:30:00",
+          "2023-03-30T09:30:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "zelenka_2022-2023_stable_carbon_isotope_sea_water.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.38274",
+      "maximum": "43.382822"
+    },
+    "longitude": {
+      "minimum": "28.42935",
+      "maximum": "28.429479"
+    },
+    "water depth (m)": {
+      "minimum": "1.0",
+      "maximum": "8.0"
+    },
+    "water temperature (\u00b0c)": {
+      "minimum": "7.5",
+      "maximum": "22.0"
+    },
+    "pegaz n\u00b0": {
+      "minimum": "6",
+      "maximum": "12"
+    },
+    "dissolved inorganic carbon (mm)": {
+      "minimum": "2.3431952057929215",
+      "maximum": "3.160309431402761"
+    },
+    "\u03b413c (pdb)": {
+      "minimum": "-3.3510663472006437",
+      "maximum": "-0.265442914125247"
+    }
+  }
+}

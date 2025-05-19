@@ -16,16 +16,16 @@
       "bbox": [
         [
           28.963,
-          41.016,
+          40.974,
           41.681,
-          42.962
+          42.993
         ]
       ]
     },
     "temporal": {
       "interval": [
         [
-          "2013-08-31T06:00:00",
+          "2013-08-29T09:14:00",
           "2015-07-02T06:29:00"
         ]
       ]
@@ -39,18 +39,26 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
   "summaries": {
+    "platform_number": {
+      "minimum": "7900590",
+      "maximum": "7900590"
+    },
+    "cycle_number": {
+      "minimum": "1",
+      "maximum": "135"
+    },
     "time_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "latitude": {
-      "minimum": "41.016",
-      "maximum": "42.962"
+      "minimum": "40.974",
+      "maximum": "42.993"
     },
     "longitude": {
       "minimum": "28.963",
@@ -60,10 +68,6 @@
       "minimum": "1",
       "maximum": "1"
     },
-    "cycle_number": {
-      "minimum": "1",
-      "maximum": "135"
-    },
     "pres (decibar)": {
       "minimum": "6",
       "maximum": "1970"
@@ -71,6 +75,14 @@
     "pres_qc": {
       "minimum": "1",
       "maximum": "1"
+    },
+    "pres_adjusted (decibar)": {
+      "minimum": "6",
+      "maximum": "1970"
+    },
+    "pres_adjusted_error (decibar)": {
+      "minimum": "2.4",
+      "maximum": "2.4"
     },
     "psal (psu)": {
       "minimum": "16.896",
@@ -80,37 +92,29 @@
       "minimum": "1",
       "maximum": "1"
     },
+    "psal_adjusted (psu)": {
+      "minimum": "16.896",
+      "maximum": "22.33"
+    },
+    "psal_adjusted_error (psu)": {
+      "minimum": "0.01",
+      "maximum": "0.01"
+    },
     "temp (\u00b0c)": {
       "minimum": "7.739",
       "maximum": "27.1"
     },
     "temp_qc": {
       "minimum": "1",
-      "maximum": "1"
-    },
-    "pres_adjusted (decibar)": {
-      "minimum": "6",
-      "maximum": "1970"
-    },
-    "pres_adjusted_qc": {
-      "minimum": "1",
-      "maximum": "1"
+      "maximum": "4"
     },
     "temp_adjusted (\u00b0c)": {
       "minimum": "7.739",
       "maximum": "27.1"
     },
-    "temp_adjusted_qc": {
-      "minimum": "1",
-      "maximum": "1"
-    },
-    "psal_adjusted (psu)": {
-      "minimum": "16.896",
-      "maximum": "22.33"
-    },
-    "psal_adjusted_qc": {
-      "minimum": "1",
-      "maximum": "1"
+    "temp_adjusted_error (\u00b0c)": {
+      "minimum": "0.002",
+      "maximum": "0.002"
     }
   }
 }

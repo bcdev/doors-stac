@@ -26,7 +26,7 @@
       "interval": [
         [
           "2019-12-02T20:31:00",
-          "2024-04-07T22:06:30"
+          "2024-08-18T06:25:30"
         ]
       ]
     }
@@ -39,7 +39,7 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
@@ -50,7 +50,7 @@
     },
     "cycle_number": {
       "minimum": "1",
-      "maximum": "317"
+      "maximum": "337"
     },
     "time_qc": {
       "minimum": "1",
@@ -69,7 +69,7 @@
       "maximum": "1"
     },
     "pres (decibar)": {
-      "minimum": "2.4",
+      "minimum": "2.1",
       "maximum": "1530.4"
     },
     "pres_qc": {

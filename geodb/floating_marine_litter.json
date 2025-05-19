@@ -16,8 +16,8 @@
       "bbox": [
         [
           29.6227,
-          41.5955,
-          41.67792,
+          29.21475,
+          43.35643,
           43.60877
         ]
       ]
@@ -26,7 +26,7 @@
       "interval": [
         [
           "2024-06-02T12:00:00",
-          "2027-06-05T12:00:00"
+          "2024-06-18T12:00:00"
         ]
       ]
     }
@@ -45,16 +45,16 @@
   ],
   "summaries": {
     "latitude": {
-      "minimum": "41.5955",
+      "minimum": "29.21475",
       "maximum": "43.60877"
     },
     "longitude": {
       "minimum": "29.6227",
-      "maximum": "41.67792"
+      "maximum": "43.35643"
     },
-    "concentration of macro plastic (items/km^2)": {
-      "minimum": "161.6",
-      "maximum": "2931.6"
+    "concentration of macro litter (items/km^2)": {
+      "minimum": "48.97",
+      "maximum": "976.01"
     }
   }
 }

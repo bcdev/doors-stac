@@ -1,0 +1,240 @@
+{
+  "stac_version": "1.0.0",
+  "id": "on_14-15.05_ok",
+  "title": "ON_14-15.05_ok",
+  "description": "ON_14-15.05_ok",
+  "providers": [
+    {
+      "name": "NIMRD",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          29.961667,
+          43.916667,
+          29.961667,
+          43.916667
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-14T21:32:44",
+          "2023-05-15T06:07:44"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "on_14-15.05_ok.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.916667",
+      "maximum": "43.916667"
+    },
+    "longitude": {
+      "minimum": "29.961667",
+      "maximum": "29.961667"
+    },
+    "u_2.1": {
+      "minimum": "-157",
+      "maximum": "88"
+    },
+    "v_2.1": {
+      "minimum": "-140",
+      "maximum": "12"
+    },
+    "u_4.1": {
+      "minimum": "-153",
+      "maximum": "100"
+    },
+    "v_4.1": {
+      "minimum": "-127",
+      "maximum": "-8"
+    },
+    "u_6.1": {
+      "minimum": "-150",
+      "maximum": "92"
+    },
+    "v_6.1": {
+      "minimum": "-146",
+      "maximum": "6"
+    },
+    "u_8.1": {
+      "minimum": "-137",
+      "maximum": "107"
+    },
+    "v_8.1": {
+      "minimum": "-118",
+      "maximum": "29"
+    },
+    "u_10.1": {
+      "minimum": "-146",
+      "maximum": "126"
+    },
+    "v_10.1": {
+      "minimum": "-134",
+      "maximum": "1"
+    },
+    "u_12.1": {
+      "minimum": "-163",
+      "maximum": "113"
+    },
+    "v_12.1": {
+      "minimum": "-128",
+      "maximum": "3"
+    },
+    "u_14.1": {
+      "minimum": "-154",
+      "maximum": "130"
+    },
+    "v_14.1": {
+      "minimum": "-127",
+      "maximum": "-5"
+    },
+    "u_16.1": {
+      "minimum": "-158",
+      "maximum": "121"
+    },
+    "v_16.1": {
+      "minimum": "-132",
+      "maximum": "10"
+    },
+    "u_18.1": {
+      "minimum": "-155",
+      "maximum": "106"
+    },
+    "v_18.1": {
+      "minimum": "-141",
+      "maximum": "20"
+    },
+    "u_20.1": {
+      "minimum": "-151",
+      "maximum": "96"
+    },
+    "v_20.1": {
+      "minimum": "-153",
+      "maximum": "28"
+    },
+    "u_22.1": {
+      "minimum": "-147",
+      "maximum": "81"
+    },
+    "v_22.1": {
+      "minimum": "-190",
+      "maximum": "45"
+    },
+    "u_24.1": {
+      "minimum": "-134",
+      "maximum": "70"
+    },
+    "v_24.1": {
+      "minimum": "-181",
+      "maximum": "45"
+    },
+    "u_26.1": {
+      "minimum": "-146",
+      "maximum": "69"
+    },
+    "v_26.1": {
+      "minimum": "-184",
+      "maximum": "50"
+    },
+    "u_28.1": {
+      "minimum": "-136",
+      "maximum": "66"
+    },
+    "v_28.1": {
+      "minimum": "-185",
+      "maximum": "69"
+    },
+    "u_30.1": {
+      "minimum": "-159",
+      "maximum": "39"
+    },
+    "v_30.1": {
+      "minimum": "-176",
+      "maximum": "76"
+    },
+    "u_32.1": {
+      "minimum": "-144",
+      "maximum": "40"
+    },
+    "v_32.1": {
+      "minimum": "-163",
+      "maximum": "69"
+    },
+    "u_34.1": {
+      "minimum": "-150",
+      "maximum": "39"
+    },
+    "v_34.1": {
+      "minimum": "-155",
+      "maximum": "85"
+    },
+    "u_36.1": {
+      "minimum": "-146",
+      "maximum": "21"
+    },
+    "v_36.1": {
+      "minimum": "-160",
+      "maximum": "88"
+    },
+    "u_38.1": {
+      "minimum": "-128",
+      "maximum": "35"
+    },
+    "v_38.1": {
+      "minimum": "-147",
+      "maximum": "80"
+    },
+    "u_40.1": {
+      "minimum": "-138",
+      "maximum": "25"
+    },
+    "v_40.1": {
+      "minimum": "-152",
+      "maximum": "75"
+    },
+    "u_42.1": {
+      "minimum": "-136",
+      "maximum": "36"
+    },
+    "v_42.1": {
+      "minimum": "-141",
+      "maximum": "76"
+    },
+    "u_44.1": {
+      "minimum": "-131",
+      "maximum": "50"
+    },
+    "v_44.1": {
+      "minimum": "-136",
+      "maximum": "78"
+    },
+    "u_46.1": {
+      "minimum": "-114",
+      "maximum": "26"
+    },
+    "v_46.1": {
+      "minimum": "-119",
+      "maximum": "76"
+    }
+  }
+}

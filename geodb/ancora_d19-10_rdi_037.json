@@ -1,0 +1,608 @@
+{
+  "stac_version": "1.0.0",
+  "id": "ancora_d19-10_rdi_037",
+  "title": "Ancora_d19-10_RDI_037",
+  "description": "Ancora_d19-10_RDI_037",
+  "providers": [
+    {
+      "name": "NIMRD",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.6855,
+          43.1559,
+          28.6855,
+          43.1559
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-09-19T19:00:49",
+          "2023-09-20T06:40:49"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "ancora_d19-10_rdi_037.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.1559",
+      "maximum": "43.1559"
+    },
+    "longitude": {
+      "minimum": "28.6855",
+      "maximum": "28.6855"
+    },
+    "u_1.5": {
+      "minimum": "-237",
+      "maximum": "257"
+    },
+    "v_1.5": {
+      "minimum": "-104",
+      "maximum": "137"
+    },
+    "u_2.0": {
+      "minimum": "-111",
+      "maximum": "261"
+    },
+    "v_2.0": {
+      "minimum": "-108",
+      "maximum": "122"
+    },
+    "u_2.5": {
+      "minimum": "-119",
+      "maximum": "265"
+    },
+    "v_2.5": {
+      "minimum": "-115",
+      "maximum": "199"
+    },
+    "u_3.0": {
+      "minimum": "-74",
+      "maximum": "254"
+    },
+    "v_3.0": {
+      "minimum": "-139",
+      "maximum": "320"
+    },
+    "u_3.5": {
+      "minimum": "-157",
+      "maximum": "262"
+    },
+    "v_3.5": {
+      "minimum": "-151",
+      "maximum": "291"
+    },
+    "u_4.0": {
+      "minimum": "-102",
+      "maximum": "290"
+    },
+    "v_4.0": {
+      "minimum": "-157",
+      "maximum": "190"
+    },
+    "u_4.5": {
+      "minimum": "-200",
+      "maximum": "249"
+    },
+    "v_4.5": {
+      "minimum": "-159",
+      "maximum": "141"
+    },
+    "u_5.0": {
+      "minimum": "-84",
+      "maximum": "266"
+    },
+    "v_5.0": {
+      "minimum": "-146",
+      "maximum": "142"
+    },
+    "u_5.5": {
+      "minimum": "-158",
+      "maximum": "270"
+    },
+    "v_5.5": {
+      "minimum": "-207",
+      "maximum": "148"
+    },
+    "u_6.0": {
+      "minimum": "-304",
+      "maximum": "283"
+    },
+    "v_6.0": {
+      "minimum": "-335",
+      "maximum": "165"
+    },
+    "u_6.5": {
+      "minimum": "88",
+      "maximum": "271"
+    },
+    "v_6.5": {
+      "minimum": "-180",
+      "maximum": "151"
+    },
+    "u_7.0": {
+      "minimum": "-136",
+      "maximum": "284"
+    },
+    "v_7.0": {
+      "minimum": "-163",
+      "maximum": "120"
+    },
+    "u_7.5": {
+      "minimum": "-31",
+      "maximum": "280"
+    },
+    "v_7.5": {
+      "minimum": "-385",
+      "maximum": "120"
+    },
+    "u_8.0": {
+      "minimum": "73.0",
+      "maximum": "287.0"
+    },
+    "v_8.0": {
+      "minimum": "-160.0",
+      "maximum": "124.0"
+    },
+    "u_8.5": {
+      "minimum": "58",
+      "maximum": "266"
+    },
+    "v_8.5": {
+      "minimum": "-285",
+      "maximum": "106"
+    },
+    "u_9.0": {
+      "minimum": "-49",
+      "maximum": "278"
+    },
+    "v_9.0": {
+      "minimum": "-206",
+      "maximum": "96"
+    },
+    "u_9.5": {
+      "minimum": "-113",
+      "maximum": "278"
+    },
+    "v_9.5": {
+      "minimum": "-184",
+      "maximum": "102"
+    },
+    "u_10.0": {
+      "minimum": "-111",
+      "maximum": "310"
+    },
+    "v_10.0": {
+      "minimum": "-201",
+      "maximum": "113"
+    },
+    "u_10.5": {
+      "minimum": "-94",
+      "maximum": "318"
+    },
+    "v_10.5": {
+      "minimum": "-234",
+      "maximum": "96"
+    },
+    "u_11.0": {
+      "minimum": "-165",
+      "maximum": "321"
+    },
+    "v_11.0": {
+      "minimum": "-219",
+      "maximum": "136"
+    },
+    "u_11.5": {
+      "minimum": "-95",
+      "maximum": "256"
+    },
+    "v_11.5": {
+      "minimum": "-244",
+      "maximum": "106"
+    },
+    "u_12.0": {
+      "minimum": "-91",
+      "maximum": "247"
+    },
+    "v_12.0": {
+      "minimum": "-226",
+      "maximum": "132"
+    },
+    "u_12.5": {
+      "minimum": "-93",
+      "maximum": "233"
+    },
+    "v_12.5": {
+      "minimum": "-232",
+      "maximum": "149"
+    },
+    "u_13.0": {
+      "minimum": "-66",
+      "maximum": "220"
+    },
+    "v_13.0": {
+      "minimum": "-207",
+      "maximum": "117"
+    },
+    "u_13.5": {
+      "minimum": "-59",
+      "maximum": "216"
+    },
+    "v_13.5": {
+      "minimum": "-246",
+      "maximum": "137"
+    },
+    "u_14.0": {
+      "minimum": "-122",
+      "maximum": "236"
+    },
+    "v_14.0": {
+      "minimum": "-245",
+      "maximum": "159"
+    },
+    "u_14.5": {
+      "minimum": "-153",
+      "maximum": "209"
+    },
+    "v_14.5": {
+      "minimum": "-220",
+      "maximum": "137"
+    },
+    "u_15.0": {
+      "minimum": "-105",
+      "maximum": "250"
+    },
+    "v_15.0": {
+      "minimum": "-239",
+      "maximum": "107"
+    },
+    "u_15.5": {
+      "minimum": "-108",
+      "maximum": "242"
+    },
+    "v_15.5": {
+      "minimum": "-213",
+      "maximum": "109"
+    },
+    "u_16.0": {
+      "minimum": "-80",
+      "maximum": "243"
+    },
+    "v_16.0": {
+      "minimum": "-179",
+      "maximum": "129"
+    },
+    "u_16.5": {
+      "minimum": "-65",
+      "maximum": "262"
+    },
+    "v_16.5": {
+      "minimum": "-154",
+      "maximum": "95"
+    },
+    "u_17.0": {
+      "minimum": "-155",
+      "maximum": "235"
+    },
+    "v_17.0": {
+      "minimum": "-111",
+      "maximum": "149"
+    },
+    "u_17.5": {
+      "minimum": "-174",
+      "maximum": "279"
+    },
+    "v_17.5": {
+      "minimum": "-120",
+      "maximum": "158"
+    },
+    "u_18.0": {
+      "minimum": "-139",
+      "maximum": "226"
+    },
+    "v_18.0": {
+      "minimum": "-131",
+      "maximum": "89"
+    },
+    "u_18.5": {
+      "minimum": "-128",
+      "maximum": "201"
+    },
+    "v_18.5": {
+      "minimum": "-122",
+      "maximum": "76"
+    },
+    "u_19.0": {
+      "minimum": "-111",
+      "maximum": "180"
+    },
+    "v_19.0": {
+      "minimum": "-267",
+      "maximum": "69"
+    },
+    "u_19.5": {
+      "minimum": "7",
+      "maximum": "189"
+    },
+    "v_19.5": {
+      "minimum": "-193",
+      "maximum": "47"
+    },
+    "u_20.0": {
+      "minimum": "-72",
+      "maximum": "231"
+    },
+    "v_20.0": {
+      "minimum": "-299",
+      "maximum": "101"
+    },
+    "u_20.5": {
+      "minimum": "-64",
+      "maximum": "175"
+    },
+    "v_20.5": {
+      "minimum": "-194",
+      "maximum": "51"
+    },
+    "u_21.0": {
+      "minimum": "-81",
+      "maximum": "188"
+    },
+    "v_21.0": {
+      "minimum": "-154",
+      "maximum": "96"
+    },
+    "u_21.5": {
+      "minimum": "-105",
+      "maximum": "146"
+    },
+    "v_21.5": {
+      "minimum": "-211",
+      "maximum": "100"
+    },
+    "u_22.0": {
+      "minimum": "-104",
+      "maximum": "134"
+    },
+    "v_22.0": {
+      "minimum": "-245",
+      "maximum": "108"
+    },
+    "u_22.5": {
+      "minimum": "-66",
+      "maximum": "133"
+    },
+    "v_22.5": {
+      "minimum": "-174",
+      "maximum": "114"
+    },
+    "u_23.0": {
+      "minimum": "-157",
+      "maximum": "149"
+    },
+    "v_23.0": {
+      "minimum": "-129",
+      "maximum": "86"
+    },
+    "u_23.5": {
+      "minimum": "-165",
+      "maximum": "174"
+    },
+    "v_23.5": {
+      "minimum": "-130",
+      "maximum": "123"
+    },
+    "u_24.0": {
+      "minimum": "-95",
+      "maximum": "130"
+    },
+    "v_24.0": {
+      "minimum": "-148",
+      "maximum": "112"
+    },
+    "u_24.5": {
+      "minimum": "-91",
+      "maximum": "145"
+    },
+    "v_24.5": {
+      "minimum": "-145",
+      "maximum": "143"
+    },
+    "u_25.0": {
+      "minimum": "-115",
+      "maximum": "121"
+    },
+    "v_25.0": {
+      "minimum": "-200",
+      "maximum": "133"
+    },
+    "u_25.5": {
+      "minimum": "-108",
+      "maximum": "110"
+    },
+    "v_25.5": {
+      "minimum": "-149",
+      "maximum": "119"
+    },
+    "u_26.0": {
+      "minimum": "-92",
+      "maximum": "89"
+    },
+    "v_26.0": {
+      "minimum": "-113",
+      "maximum": "177"
+    },
+    "u_26.5": {
+      "minimum": "-81",
+      "maximum": "104"
+    },
+    "v_26.5": {
+      "minimum": "-102",
+      "maximum": "117"
+    },
+    "u_27.0": {
+      "minimum": "-115",
+      "maximum": "122"
+    },
+    "v_27.0": {
+      "minimum": "-134",
+      "maximum": "164"
+    },
+    "u_27.5": {
+      "minimum": "-57",
+      "maximum": "157"
+    },
+    "v_27.5": {
+      "minimum": "-89",
+      "maximum": "147"
+    },
+    "u_28.0": {
+      "minimum": "-108",
+      "maximum": "117"
+    },
+    "v_28.0": {
+      "minimum": "-117",
+      "maximum": "107"
+    },
+    "u_28.5": {
+      "minimum": "-510",
+      "maximum": "321"
+    },
+    "v_28.5": {
+      "minimum": "-229",
+      "maximum": "296"
+    },
+    "u_29.0": {
+      "minimum": "-404.0",
+      "maximum": "612.0"
+    },
+    "v_29.0": {
+      "minimum": "-821.0",
+      "maximum": "486.0"
+    },
+    "u_29.5": {
+      "minimum": "-218",
+      "maximum": "268"
+    },
+    "v_29.5": {
+      "minimum": "-453",
+      "maximum": "318"
+    },
+    "u_30.0": {
+      "minimum": "-231",
+      "maximum": "177"
+    },
+    "v_30.0": {
+      "minimum": "-224",
+      "maximum": "150"
+    },
+    "u_30.5": {
+      "minimum": "-605.0",
+      "maximum": "803.0"
+    },
+    "v_30.5": {
+      "minimum": "-478.0",
+      "maximum": "250.0"
+    },
+    "u_31.0": {
+      "minimum": "-254",
+      "maximum": "243"
+    },
+    "v_31.0": {
+      "minimum": "-238",
+      "maximum": "197"
+    },
+    "u_31.5": {
+      "minimum": "-192",
+      "maximum": "124"
+    },
+    "v_31.5": {
+      "minimum": "-197",
+      "maximum": "343"
+    },
+    "u_32.0": {
+      "minimum": "-217",
+      "maximum": "44"
+    },
+    "v_32.0": {
+      "minimum": "-106",
+      "maximum": "138"
+    },
+    "u_32.5": {
+      "minimum": "-216",
+      "maximum": "57"
+    },
+    "v_32.5": {
+      "minimum": "-130",
+      "maximum": "117"
+    },
+    "u_33.0": {
+      "minimum": "-131",
+      "maximum": "107"
+    },
+    "v_33.0": {
+      "minimum": "-92",
+      "maximum": "91"
+    },
+    "u_33.5": {
+      "minimum": "-164",
+      "maximum": "134"
+    },
+    "v_33.5": {
+      "minimum": "-90",
+      "maximum": "105"
+    },
+    "u_34.0": {
+      "minimum": "-152",
+      "maximum": "117"
+    },
+    "v_34.0": {
+      "minimum": "-61",
+      "maximum": "79"
+    },
+    "u_34.5": {
+      "minimum": "-167",
+      "maximum": "115"
+    },
+    "v_34.5": {
+      "minimum": "-90",
+      "maximum": "109"
+    },
+    "u_35.0": {
+      "minimum": "-123",
+      "maximum": "71"
+    },
+    "v_35.0": {
+      "minimum": "-77",
+      "maximum": "90"
+    },
+    "u_35.5": {
+      "minimum": "-203",
+      "maximum": "190"
+    },
+    "v_35.5": {
+      "minimum": "-85",
+      "maximum": "103"
+    }
+  }
+}

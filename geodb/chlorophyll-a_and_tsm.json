@@ -66,7 +66,7 @@
     },
     "tsm  [mg/l]": {
       "minimum": "0.123",
-      "maximum": "5.988"
+      "maximum": "5.988000000000005"
     },
     "secchi disk [m]": {
       "minimum": "3.4",

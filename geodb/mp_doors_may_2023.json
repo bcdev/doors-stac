@@ -1,0 +1,128 @@
+{
+  "stac_version": "1.0.0",
+  "id": "mp_doors_may_2023",
+  "title": "mp_doors_May_2023",
+  "description": "mp_doors_May_2023",
+  "providers": [
+    {
+      "name": "NIMRD",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          28.6489,
+          43.789322,
+          30.45021,
+          44.17989
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2023-05-01T12:00:00",
+          "2023-05-18T12:00:00"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "mp_doors_may_2023.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.789322",
+      "maximum": "44.17989"
+    },
+    "longitude": {
+      "minimum": "28.6489",
+      "maximum": "30.45021"
+    },
+    "depth_m": {
+      "minimum": "25",
+      "maximum": "120"
+    },
+    "total_microplastic_items_n_10_gdw": {
+      "minimum": "2",
+      "maximum": "24"
+    },
+    "fibers_n": {
+      "minimum": "2",
+      "maximum": "22"
+    },
+    "filaments_n": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "fragments_n": {
+      "minimum": "0",
+      "maximum": "8"
+    },
+    "spherules_n": {
+      "minimum": "0",
+      "maximum": "3"
+    },
+    "pellets_n": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "films_n": {
+      "minimum": "0",
+      "maximum": "0"
+    },
+    "blue": {
+      "minimum": "2",
+      "maximum": "22"
+    },
+    "yellow": {
+      "minimum": "0",
+      "maximum": "3"
+    },
+    "brown": {
+      "minimum": "0",
+      "maximum": "2"
+    },
+    "purple": {
+      "minimum": "0",
+      "maximum": "1"
+    },
+    "black": {
+      "minimum": "0",
+      "maximum": "1"
+    },
+    "transparent": {
+      "minimum": "0.0",
+      "maximum": "1.0"
+    },
+    "class_1_1000-4999_\u00b5m": {
+      "minimum": "0",
+      "maximum": "2"
+    },
+    "class_2_300-999_\u00b5m": {
+      "minimum": "0",
+      "maximum": "3"
+    },
+    "class_3_100-299_\u00b5m": {
+      "minimum": "2",
+      "maximum": "16"
+    },
+    "class_4_50-99_\u00b5m": {
+      "minimum": "0",
+      "maximum": "5"
+    }
+  }
+}

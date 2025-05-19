@@ -16,8 +16,8 @@
       "bbox": [
         [
           28.55932,
-          41.61454,
-          35.73066,
+          41.51464,
+          37.59681,
           43.55667
         ]
       ]
@@ -26,7 +26,7 @@
       "interval": [
         [
           "2021-10-22T00:40:00",
-          "2024-02-03T02:48:30"
+          "2024-08-22T18:55:30"
         ]
       ]
     }
@@ -39,7 +39,7 @@
     },
     {
       "rel": "parent",
-      "href": "catalog.json",
+      "href": "wmocatalog.json",
       "type": "application/json"
     }
   ],
@@ -50,19 +50,19 @@
     },
     "cycle_number": {
       "minimum": "1",
-      "maximum": "166"
+      "maximum": "206"
     },
     "time_qc": {
       "minimum": "1",
       "maximum": "1"
     },
     "latitude": {
-      "minimum": "41.61454",
+      "minimum": "41.51464",
       "maximum": "43.55667"
     },
     "longitude": {
       "minimum": "28.55932",
-      "maximum": "35.73066"
+      "maximum": "37.59681"
     },
     "position_qc": {
       "minimum": "1",
@@ -85,7 +85,7 @@
       "maximum": "2.4"
     },
     "psal (psu)": {
-      "minimum": "18.116",
+      "minimum": "0.031",
       "maximum": "41.999"
     },
     "psal_qc": {
@@ -102,7 +102,7 @@
     },
     "temp (\u00b0c)": {
       "minimum": "6.916",
-      "maximum": "27.542"
+      "maximum": "27.825"
     },
     "temp_qc": {
       "minimum": "1",
@@ -117,16 +117,16 @@
       "maximum": "0.002"
     },
     "doxy (micromole/kg)": {
-      "minimum": "0.00666",
+      "minimum": "-0.00888",
       "maximum": "316.95615"
     },
     "doxy_adjusted (micromole/kg)": {
-      "minimum": "0.007",
+      "minimum": "-0.00933",
       "maximum": "333.1843"
     },
     "doxy_adjusted_error (micromole/kg)": {
       "minimum": "11.65799",
-      "maximum": "18.01897"
+      "maximum": "21.86471"
     }
   }
 }

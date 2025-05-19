@@ -1,0 +1,56 @@
+{
+  "stac_version": "1.0.0",
+  "id": "sediment_mineralogy",
+  "title": "Sediment_mineralogy",
+  "description": "Sediment_mineralogy",
+  "providers": [
+    {
+      "name": "French National Institute for Ocean Science and Technology",
+      "roles": [
+        "producer"
+      ]
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          30.85059833,
+          43.93950167,
+          30.850625,
+          43.939668
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "self",
+      "href": "sediment_mineralogy.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "summaries": {
+    "latitude": {
+      "minimum": "43.939502",
+      "maximum": "43.939668"
+    },
+    "longitude": {
+      "minimum": "30.850598",
+      "maximum": "30.850625"
+    },
+    "water depth (m)": {
+      "minimum": "734",
+      "maximum": "739"
+    },
+    "sediment depth (mbsf)": {
+      "minimum": "0.26",
+      "maximum": "5.61"
+    }
+  }
+}
